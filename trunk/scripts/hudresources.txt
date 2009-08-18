@@ -1,0 +1,22 @@
+Resource {type = "Texture" label = "crosshair" path = "reticle.png"}
+Resource {type = "Texture" label = "lockonindicator" path = "lockonindicator.png"}
+
+Resource {type = "Texture" label = "turreticon" path = "uitextures/turret_128x128.png"}
+Resource {type = "Texture" label = "gunshipicon" path = "uitextures/gunship_128x128.png"}
+Resource {type = "Texture" label = "alienfightericon" path = "uitextures/alienfighter_128x128.png"}
+Resource {type = "Texture" label = "turret1" path = "uitextures/1_128x128.png"}
+Resource {type = "Texture" label = "turret2" path = "uitextures/2_128x128.png"}
+Resource {type = "Texture" label = "turret3" path = "uitextures/3_128x128.png"}
+Resource {type = "Texture" label = "turret4" path = "uitextures/4_128x128.png"}
+
+Resource {type = "Texture" label = "healthbar" path = "uitextures/greengradient.png"}
+Resource {type = "Texture" label = "heatbar" path = "uitextures/redgradient.png"}
+
+Resource {type = "Texture" label = "repair" path = "uitextures/upgrade_repair.png"}
+Resource {type = "Texture" label = "double" path = "uitextures/upgrade_double.png"}
+Resource {type = "Texture" label = "launcher" path = "uitextures/upgrade_launcher.png"}
+Resource {type = "Texture" label = "laser" path = "uitextures/upgrade_laser.png"}
+Resource {type = "Texture" label = "plasma" path = "uitextures/upgrade_laser.png"}
+
+Resource {type = "Texture" label = "Ben" path = "/charactericons/ben.png"}
+Resource {type = "Texture" label = "Jack" path = "/charactericons/jack.png"}

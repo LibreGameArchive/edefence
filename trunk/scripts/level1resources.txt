@@ -1,0 +1,82 @@
+Resource {type = "Script" label = "level1scripts" path = "data/scripts/level1scripts.txt"}
+
+Resource {type = "Texture" label = "shadow" path = "splatting/level1/lightmap_mask.png"}
+Resource {type = "Texture" label = "base" path = "splatting/level1/grass07.png"}
+
+Resource {type = "Texture" label = "detail1" path = "splatting/level0/railroad_gravel05.png"}
+Resource {type = "Texture" label = "detailmask1" path = "splatting/level1/road_mask.png"}
+Resource {type = "Texture" label = "detail2" path = "splatting/level1/cliff01.png"}
+Resource {type = "Texture" label = "detailmask2" path = "splatting/level1/rock_mask.png"}
+
+Resource {type = "Spatial" label = "barrel-06" path = "industrial/barrel-06.jme"}
+Resource {type = "Spatial" label = "barrel-09" path = "industrial/barrel-09.jme"}
+Resource {type = "Spatial" label = "bld01_05" path = "industrial/bld01_05.jme"}
+Resource {type = "Spatial" label = "bld01_06" path = "industrial/bld01_06.jme"}
+Resource {type = "Spatial" label = "bld03_011" path = "industrial/bld03_011.jme"}
+Resource {type = "Spatial" label = "bld03_012" path = "industrial/bld03_012.jme"}
+Resource {type = "Spatial" label = "bld03_02" path = "industrial/bld03_02.jme"}
+Resource {type = "Spatial" label = "bld03_03" path = "industrial/bld03_03.jme"}
+Resource {type = "Spatial" label = "bld03_04" path = "industrial/bld03_04.jme"}
+Resource {type = "Spatial" label = "bld-cont_07" path = "industrial/bld-cont_07.jme"}
+Resource {type = "Spatial" label = "bld-cont_09" path = "industrial/bld-cont_09.jme"}
+Resource {type = "Spatial" label = "bld-cont_15" path = "industrial/bld-cont_15.jme"}
+Resource {type = "Spatial" label = "bld-hangar_01" path = "industrial/bld-hangar_01.jme"}
+Resource {type = "Spatial" label = "bld-hangar_02" path = "industrial/bld-hangar_02.jme"}
+Resource {type = "Spatial" label = "bld-hangar_05" path = "industrial/bld-hangar_05.jme"}
+Resource {type = "Spatial" label = "cistern_11" path = "industrial/cistern_11.jme"}
+Resource {type = "Spatial" label = "crate_12" path = "industrial/crate_12.jme"}
+Resource {type = "Spatial" label = "crate_17" path = "industrial/crate_17.jme"}
+Resource {type = "Spatial" label = "fence-c_02" path = "industrial/fence-c_02.jme"}
+Resource {type = "Spatial" label = "fence-cb2" path = "industrial/fence-cb2.jme"}
+Resource {type = "Spatial" label = "fence-cb" path = "industrial/fence-cb.jme"}
+Resource {type = "Spatial" label = "misc_01" path = "industrial/misc_01.jme"}
+Resource {type = "Spatial" label = "pipe-segment_14" path = "industrial/pipe-segment_14.jme"}
+Resource {type = "Spatial" label = "tube-misc_01" path = "industrial/tube-misc_01.jme"}
+Resource {type = "Spatial" label = "tunnel" path = "industrial/tunnel.jme"}
+Resource {type = "Spatial" label = "crane_04" path = "industrial/crane_04.jme"}
+Resource {type = "Spatial" label = "block_concrete-16" path = "industrial/block_concrete-16.jme"}
+Resource {type = "Spatial" label = "cistern_08" path = "industrial/cistern_08.jme"}
+Resource {type = "Spatial" label = "cistern_01" path = "industrial/cistern_01.jme"}
+
+Resource {type = "Spatial" label = "bridgespan" path = "bridgespan.jme"}
+Resource {type = "Spatial" label = "bridgesupport" path = "bridgesupport.jme"}
+
+Resource {type = "Spatial" label = "pinetree" path = "loopix/pinetree.jme"}
+Resource {type = "Texture" label = "pinetree" path = "loopix/pinetree.png"}
+
+Resource {type = "Core" label = "1" path = " "}
+Resource {type = "Core" label = "2" path = " "}
+Resource {type = "Core" label = "3" path = " "}
+Resource {type = "Core" label = "4" path = " "}
+
+Preset {mesh = "pinetree" texture = "pinetree" alpha = "kill"}
+
+Preset {mesh = "barrel-06" texture = "melac"}
+Preset {mesh = "barrel-09" texture = "melac"}
+Preset {mesh = "bld01_05" texture = "buildz1"}
+Preset {mesh = "bld01_06" texture = "buildz1"}
+Preset {mesh = "bld03_011" texture = "buildz1"}
+Preset {mesh = "bld03_012" texture = "bar_pipe"}
+Preset {mesh = "bld03_02" texture = "buildz1"}
+Preset {mesh = "bld03_03" texture = "buildz1"}
+Preset {mesh = "bld03_04" texture = "buildz1"}
+Preset {mesh = "bld-cont_07" texture = "buildz2"}
+Preset {mesh = "bld-cont_09" texture = "buildz2"}
+Preset {mesh = "bld-cont_15" texture = "buildz2"}
+Preset {mesh = "bld-hangar_01" texture = "buildz2"}
+Preset {mesh = "bld-hangar_02" texture = "buildz1"}
+Preset {mesh = "bld-hangar_05" texture = "buildz1"}
+Preset {mesh = "cistern_11" texture = "bar_pipe"}
+Preset {mesh = "crate_12" texture = "melac"}
+Preset {mesh = "crate_17" texture = "melac"}
+Preset {mesh = "fence-c_02" texture = "bar_pipe"}
+Preset {mesh = "fence-cb2" texture = "bar_pipe"}
+Preset {mesh = "fence-cb" texture = "bar_pipe"}
+Preset {mesh = "misc_01" texture = "bar_pipe"}
+Preset {mesh = "pipe-segment_14" texture = "bar_pipe"}
+Preset {mesh = "tube-misc_01" texture = "bar_pipe"}
+Preset {mesh = "tunnel" texture = "melac"}
+Preset {mesh = "crane_04" texture = "bar_pipe"}
+Preset {mesh = "block_concrete-16" texture = "melac"}
+Preset {mesh = "cistern_08" texture = "bar_pipe"}
+Preset {mesh = "cistern_01" texture = "bar_pipe"}

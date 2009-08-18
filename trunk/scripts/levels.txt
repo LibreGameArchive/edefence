@@ -1,0 +1,3 @@
+Level {name = "SnowBase" path = "data/scripts/level2.txt"}
+Level {name = "Valley" path = "data/scripts/level1.txt"}
+Level {name = "Island" path = "data/scripts/level3.txt"}

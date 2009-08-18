@@ -1,0 +1,221 @@
+EntityTemplate 
+{
+  templateName = "aacannon"
+  templateType = "weapon"
+  weaponType = "projectile"
+  damagePerRound = 5.0
+  reloadTime = 0.2
+  burstLength = 6
+  tracerFrequency = 2
+}
+
+EntityTemplate 
+{
+  templateName = "laser"
+  templateType = "weapon"
+  weaponType = "beam"
+  damagePerSecond = 10.0
+  maxTemperature = 0.2
+  beamWidth = 0.25
+  beamTexture = "laserBeam"
+  flashTexture = "laserFlash"
+  hitEffect = "laserhit.jme"
+}
+
+EntityTemplate 
+{
+  templateName = "plasma"
+  templateType = "weapon"
+  weaponType = "beam"
+  damagePerSecond = 50.0
+  maxTemperature = 0.2
+  beamWidth = 0.25
+  beamTexture = "plasmaBeam"
+  flashTexture = "plasmaFlash"
+  hitEffect = "laserhit.jme"
+}
+
+EntityTemplate 
+{
+  templateName = "turretlauncher"
+  templateType = "weapon"
+  weaponType = "launcher"
+  damagePerRound = 50.0
+  fireDelay = 0.5
+  hardpointPositions = 	1.35 0.8 -0.25	-1.35 0.8 -0.25	1.35 0.4 -0.25	-1.35 0.4 -0.25
+}
+
+EntityTemplate 
+{
+  templateName = "gunshiplauncher"
+  templateType = "weapon"
+  weaponType = "launcher"
+  damagePerRound = 140.0
+  fireDelay = 0.5
+  hardpointPositions = 	0.15 0.1 0.0	-0.15 0.1 0.0	0.15 -0.1 0.0	-0.15 -0.1 0.0
+}
+
+EntityTemplate 
+{
+  templateName = "alienlaser"
+  templateType = "weapon"
+  weaponType = "beam"
+  damagePerSecond = 400.0
+  maxTemperature = 0.2
+  beamWidth = 0.25
+  beamTexture = "laserBeam"
+  flashTexture = "laserFlash"
+  hitEffect = "laserhit.jme"
+  fireEvent = "PlasmaBoltFire"
+}
+
+
+EntityTemplate 
+{
+  templateName = "fixedturret"
+  templateType = "turret"
+
+  hitPoints = 400.0
+
+  primaryWeapon = "aacannon" "aacannon"
+  secondaryWeapon = "turretlauncher"
+  firePoints = 0.0 0.0 1.8	0.0 0.0 1.8	0.0 0.0 0.0
+
+  structureMesh = "turretBase"
+  turretMesh = "turretMounting"
+  mountingMesh = "turretMountingPlate"
+  barrelMesh = "turretBarrel"
+
+  texture = "concrete"
+  statusIcon = "turreticon"
+}
+
+EntityTemplate 
+{
+  templateName = "gunship"
+  templateType = "aircraft"
+  aircraftType = "helicopter"
+
+  hitPoints = 400.0
+
+  thrust = 43.0
+  lift = 7.0
+  weight = 40.0
+
+  rollRate = 180.0
+  pitchRate = 90.0
+  yawRate = 90.0
+
+  mainRotorTrans = 0.0 2.6 0.0
+  tailRotorTrans = 0.0 0.0 -7.2
+
+  destructionEvent = "EDGunshipDestroyed"
+
+  primaryWeapon = "gunshiplauncher" "gunshiplauncher"
+  firePoints = 2.67 -0.3 1.0	-2.67 -0.3 1.0
+
+  hullMesh = "gunshipHull"
+  canopyMesh = "gunshipHull"
+  mainRotorMesh = "gunshipMainRotor"
+  tailRotorMesh = "gunshipTailRotor"
+  texture = "gunship" "gunship"
+
+  engineSound = "Helicopter"
+  statusIcon = "gunshipicon"
+}
+
+EntityTemplate 
+{
+  templateName = "apache"
+  templateType = "aircraft"
+  aircraftType = "helicopter"
+
+  hitPoints = 1000.0
+
+  thrust = 43.0
+  lift = 7.0
+  weight = 40.0
+
+  rollRate = 32.0
+  pitchRate = 90.0
+  yawRate = 90.0
+
+  mainRotorTrans = 0.0 1.7 0.0
+  tailRotorTrans = 0.25 2.05 -8.6
+
+  destructionEvent = "EDGunshipDestroyed"
+
+  primaryWeapon = "gunshiplauncher" "gunshiplauncher"
+  firePoints = 1.65 -0.3 0.0	-1.65 -0.3 0.0
+
+  hullMesh = "apacheHull"
+  canopyMesh = "apacheHull"
+  mainRotorMesh = "apacheMainRotor"
+  tailRotorMesh = "apacheTailRotor"
+  texture = "apache1" "apache2" "apache2"
+
+  engineSound = "Helicopter"
+  statusIcon = "gunshipicon"
+}
+
+EntityTemplate 
+{
+  templateName = "alienfighter"
+  templateType = "aircraft"
+  aircraftType = "fixedwing"
+
+  hitPoints = 70.0
+
+  thrust = 50.0
+  lift = 15.0
+  weight = 15.0
+
+  rollRate = 180.0
+  pitchRate = 90.0
+  yawRate = 90.0
+
+  destructionEvent = "EDAlienFighterDestroyed"
+
+  primaryWeapon = "alienlaser" "alienlaser"
+  firePoints = -3.375 -0.15 3.9	3.375 -0.15 3.9
+
+  hullMesh = "fighter"
+  texture = "alien"
+
+  thrusterEffect = "rocket-plasma-20.jme"
+  thrusterPositions = 2.25 -0.15 -4.5	-2.25 -0.15 -4.5
+
+  engineSound = "Jet"
+  statusIcon = "alienfightericon"
+}
+
+
+EntityTemplate 
+{
+  templateName = "tutorialfighter"
+  templateType = "aircraft"
+  aircraftType = "fixedwing"
+
+  hitPoints = 50.0
+
+  thrust = 50.0
+  lift = 15.0
+  weight = 15.0
+
+  rollRate = 180.0
+  pitchRate = 90.0
+  yawRate = 90.0
+
+  destructionEvent = "EDAircraftDestroyed"
+
+  firePoints = -3.375 -0.15 3.9	3.375 -0.15 3.9
+
+  hullMesh = "fighter"
+  texture = "alien"
+
+  thrusterEffect = "rocket-plasma-20.jme"
+  thrusterPositions = 2.25 -0.15 -4.5	-2.25 -0.15 -4.5
+
+  engineSound = "Jet"
+  statusIcon = "alienfightericon"
+}

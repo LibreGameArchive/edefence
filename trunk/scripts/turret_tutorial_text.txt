@@ -1,0 +1,49 @@
+In Exodus Defence, you will use different installations and vehicles
+to protect your bases and attack the enemy.
+This tutorial covers the use of fixed turrets.
+
+You are currently in control of one such turret.
+It can be aimed using the mouse or the W,A,S,D keys
+
+Moving the mouse left to right will turn the turret.
+Moving the mouse forward and back will raise or lower the gun.
+You can use the mouse wheel, or the A,Z keys to zoom in and out.
+
+Use the left mouse button or space bar to fire your primary weapon.
+Your current weapon is a rapid fire cannon. This is a good general purpose weapon.
+Be careful where you point it! It is just as dangerous to friendly units as enemies.
+
+A number of target barrels have been placed close to your position.
+Aim and fire at them to test your cannon.
+
+At the bottom of the screen are four turret status cards, numbered 1-4.
+Each card represents a playable unit.
+You can take control of any playable unit at any time.
+Do this by pressing the corresponding number on your keyboard.
+
+You have just received an upgrade.
+When you have an available upgrade you will see an icon in the top right of your screen.
+
+Upgrades give you beneficial effects, such as better weapons or repairs.
+An upgrade can be applied once, to one unit.
+To upgrade more units, you must get the upgrade again.
+
+Apply the upgrade to your turret by pressing <enter>.
+
+This upgrade is a secondary weapon - a guided missile launcher.
+Secondary weapons can be used in addition to your primary weapon.
+
+To fire your secondary weapon, use the right mouse button or <ctrl>
+
+Some weapons, like missile launchers, have limited ammunition.
+When your ammunition runs out, you must wait for it to reload to fire again.
+
+Guided weapons need a target lock in order to track their target.
+When your radar picks up a target, you will see a green tracking symbol.
+Keep tracking the target and the symbol will turn red, indicating a lock.
+You can now fire, and the missile will track that target.
+
+Two drones, which simulate enemy aircraft, are approaching your position.
+Lock on and shoot one down with your missiles.
+
+ScriptEvent {time = 20.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "10.0" "Jack"}

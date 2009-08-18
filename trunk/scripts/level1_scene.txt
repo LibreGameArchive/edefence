@@ -1,0 +1,5646 @@
+
+TerrainZone
+{
+	name = "TerrainZone3"
+
+	Instances
+	{
+
+	 Instance
+	 {
+		name = "EDTurret-geometry 1"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamblue" "teamredmissiles" "teamred"
+		link_pos = -397.777740 112.493690 487.318542
+		link_norm = -0.019641 0.990469 -0.052087
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -0.000000 -0.000000
+		tran = 0.000000 0.293579 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret-geometry 2"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamblue" "teamredmissiles" "teamred"
+		link_pos = -405.837494 109.050056 433.206146
+		link_norm = -0.033613 0.989687 -0.049665
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -0.000000 -0.000000
+		tran = 0.000000 0.280190 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "playerGunship1"
+		template = "gunship"
+		flags = "playable" "MOB"
+		factions = "teamblue" "teamred"
+		link_pos = -490.486816 135.438461 485.482147
+		link_norm = -0.004395 0.999974 -0.004888
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.570796 -0.000000
+		tran = 0.000000 1.171600 -0.000000
+	 }
+
+
+	 Instance
+	 {
+		name = "EDTurret-geometry 8"
+		template = "fixedturret"
+		flags = "MOB"
+                factions = "teamred" "teamblue" "teamblue"
+		link_pos = 411.14 114.50 -379.46
+		link_norm = -0.061598 0.995082 0.076754
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+
+	 Instance
+	 {
+		name = "EDTurret-geometry 4"
+		template = "fixedturret"
+		flags = "MOB"
+                factions = "teamred" "teamblue" "teamblue"
+		link_pos = -209.280991 103.385170 -197.801147
+		link_norm = -0.044836 0.995078 0.086699
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret-geometry 5"
+		template = "fixedturret"
+		flags = "MOB"
+                factions = "teamred" "teamblue" "teamblue"
+		link_pos = -500.734619 101.818947 -154.366333
+		link_norm = 0.074559 0.985731 0.144537
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret-geometry 6"
+		template = "fixedturret"
+		flags = "MOB"
+                factions = "teamred" "teamblue" "teamblue"
+		link_pos = -723.766968 105.836456 -225.562057
+		link_norm = 0.024573 0.997504 0.043726
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret-geometry 7"
+		template = "fixedturret"
+		flags = "MOB"
+                factions = "teamred" "teamblue" "teamblue"
+		link_pos = 116.570404 103.497940 -196.115936
+		link_norm = -0.035279 0.996765 0.065870
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+
+	 Instance
+	 {
+		name = "bld01_06-geometry 1"
+		template = "bld01_06"
+		flags = "scenery"
+		link_pos = -492.942566 119.157784 550.763306
+		link_norm = -0.010580 0.978736 -0.187397
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld01_06-geometry 2"
+		template = "bld01_06"
+		flags = "scenery"
+		link_pos = -492.942566 119.157784 550.763306
+		link_norm = -0.010580 0.978736 -0.187397
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 3"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = -490.895966 105.996506 418.370087
+		link_norm = 0.061288 0.997112 0.041498
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 2"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = -476.484070 104.883369 419.164642
+		link_norm = 0.092276 0.992650 -0.050696
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 4"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = -504.482727 107.238503 418.080811
+		link_norm = 0.104815 0.991052 0.080318
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 -0.830948 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 5"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = -511.000000 107.352837 424.500000
+		link_norm = 0.107386 0.990049 0.089778
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 -1.315933 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 4"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = 100.091141 155.000000 436.164642
+		link_norm = -0.154247 0.986702 -0.040232
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 3.141593 -0.000000
+		tran = 0.000000 -0.860214 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 1"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = 100.166847 155.000000 482.808441
+		link_norm = -0.074261 0.996678 -0.005692
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 -0.162888 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 2"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = 100.013687 155.000000 463.699005
+		link_norm = -0.096960 0.995241 -0.005848
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 -0.298492 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 3"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = 100.000000 155.000000 417.010010
+		link_norm = -0.110770 0.988431 0.070972
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 3.141593 -0.000000
+		tran = 0.000000 -0.438690 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "tunnel"
+		template = "tunnel"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = -49.656944 110.208900 -908.472168
+		link_norm = -0.216752 0.812992 0.475208
+		llink_norm_strength = 0.000000
+		scale = 1.500000 1.500000 1.500000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+
+	 Instance
+	 {
+		name = "fence-cb2-geometry 2"
+		template = "fence-cb2"
+		flags = "scenery"
+		link_pos = -436.384888 105.615295 419.520996
+		link_norm = -0.047101 0.997884 -0.033289
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-cb-geometry 2"
+		template = "fence-cb"
+		flags = "scenery"
+		link_pos = -511.000000 105.554169 467.500000
+		link_norm = 0.026066 0.999639 0.001562
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 -0.034485 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-cb-geometry 2"
+		template = "fence-cb"
+		flags = "scenery"
+		link_pos = 147.500000 155.000000 406.359985
+		link_norm = -0.006126 0.996778 -0.045522
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 -0.140182 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-cb-geometry 1"
+		template = "fence-cb"
+		flags = "scenery"
+		link_pos = 147.495346 155.000000 493.224243
+		link_norm = -0.000121 1.000000 -0.000494
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgespan-geometry 5"
+		template = "bridgespan"
+		flags = "scenery"
+		link_pos = -50.000000 46.458309 81.000000
+		link_norm = 0.142267 0.866914 -0.472696
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 6.355965 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgespan-geometry 3"
+		template = "bridgespan"
+		flags = "scenery"
+		link_pos = -50.000000 19.698051 38.500000
+		link_norm = 0.083084 0.926315 -0.361855
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 33.170727 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgespan-geometry 4"
+		template = "bridgespan"
+		flags = "scenery"
+		link_pos = -50.000000 21.085846 -46.830002
+		link_norm = 0.002395 0.918301 0.385293
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 31.793461 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgespan-geometry 1"
+		template = "bridgespan"
+		flags = "scenery"
+		link_pos = -50.000000 49.959881 -90.000000
+		link_norm = 0.116066 0.941548 0.316252
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 2.924744 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgespan-geometry 2"
+		template = "bridgespan"
+		flags = "scenery"
+		link_pos = -50.000000 11.082456 -3.500000
+		link_norm = -0.039823 0.986305 -0.046394
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 41.773117 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-hangar-02-geometry 2"
+		template = "bld-hangar-02"
+		flags = "scenery"
+		link_pos = -445.000000 106.553032 484.049988
+		link_norm = -0.038695 0.998783 -0.030181
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.086449 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-hangar-02-geometry 1"
+		template = "bld-hangar-02"
+		flags = "scenery"
+		link_pos = -445.399994 107.112892 502.549988
+		link_norm = -0.045528 0.996794 -0.049348
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.080673 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "cistern_11-geometry 1"
+		template = "cistern_11"
+		flags = "scenery"
+		link_pos = -436.299988 106.557732 472.000000
+		link_norm = -0.036389 0.998845 -0.030849
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.024048 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "cistern_11-geometry 2"
+		template = "cistern_11"
+		flags = "scenery"
+		link_pos = -452.000000 105.969063 472.000000
+		link_norm = -0.031077 0.999329 -0.018037
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 -0.007362 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld01_05-geometry 1"
+		template = "bld01_05"
+		flags = "scenery"
+		link_pos = -442.790680 120.000046 561.516907
+		link_norm = 0.000021 1.000000 0.000011
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgesupport-geometry 4"
+		template = "bridgesupport"
+		flags = "scenery"
+		link_pos = -50.000000 32.642975 60.000000
+		link_norm = 0.071331 0.863796 -0.498767
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 1.570796 -0.000000
+		tran = 0.000000 -18.584953 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgesupport-geometry 1"
+		template = "bridgesupport"
+		flags = "scenery"
+		link_pos = -50.000000 32.959656 -68.660004
+		link_norm = -0.026524 0.814628 0.577992
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 1.570796 -0.000000
+		tran = 0.000000 -18.918404 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgesupport-geometry 2"
+		template = "bridgesupport"
+		flags = "scenery"
+		link_pos = -50.000000 15.966371 -25.000000
+		link_norm = -0.015467 0.968162 0.241669
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 1.570796 -0.000000
+		tran = 0.000000 -1.958031 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bridgesupport-geometry 3"
+		template = "bridgesupport"
+		flags = "scenery"
+		link_pos = -50.000000 15.361192 17.000000
+		link_norm = 0.015064 0.977529 -0.210251
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 1.570796 -0.000000
+		tran = 0.000000 -1.345298 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-hangar-05-geometry 2"
+		template = "bld-hangar-05"
+		flags = "scenery"
+		link_pos = -491.369995 105.397240 444.739990
+		link_norm = 0.009838 0.999842 0.010415
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.061348 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-hangar-05-geometry 1"
+		template = "bld-hangar-05"
+		flags = "scenery"
+		link_pos = -439.779999 105.937340 447.339996
+		link_norm = -0.017701 0.999756 -0.012993
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.001945 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_17-geometry 3"
+		template = "crate_17"
+		flags = "scenery"
+		link_pos = -445.875458 105.767609 442.695801
+		link_norm = -0.014941 0.999825 -0.010903
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.505531 1.501475 0.065422
+		tran = 0.000000 1.098656 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_17-geometry 1"
+		template = "crate_17"
+		flags = "scenery"
+		link_pos = -446.572906 105.756134 442.716187
+		link_norm = -0.014862 0.999829 -0.010639
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = -1.570796 1.521773 -3.141593
+		tran = 0.000000 0.140259 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_17-geometry 2"
+		template = "crate_17"
+		flags = "scenery"
+		link_pos = -445.442780 105.773521 442.591858
+		link_norm = -0.014957 0.999823 -0.011082
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.152046 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "barrel-09-geometry 1"
+		template = "barrel-09"
+		flags = "scenery"
+		link_pos = -485.365692 105.406357 439.814209
+		link_norm = 0.004578 0.999906 0.009215
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.233658 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "barrel-09-geometry 2"
+		template = "barrel-09"
+		flags = "scenery"
+		link_pos = -487.114258 105.402557 439.998688
+		link_norm = 0.007053 0.999891 0.010337
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "barrel-09-geometry 3"
+		template = "barrel-09"
+		flags = "scenery"
+		link_pos = -486.125061 105.401070 440.833832
+		link_norm = 0.004925 0.999909 0.009077
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "barrel-06-geometry 2"
+		template = "barrel-06"
+		flags = "scenery"
+		link_pos = -487.314117 105.780060 419.765472
+		link_norm = 0.061947 0.997405 0.024936
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "barrel-06-geometry 1"
+		template = "barrel-06"
+		flags = "scenery"
+		link_pos = -485.836884 105.735718 419.602051
+		link_norm = 0.067112 0.997084 0.017647
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_12-geometry 6"
+		template = "crate_12"
+		flags = "scenery"
+		link_pos = -496.389740 105.388542 449.411926
+		link_norm = 0.013146 0.999814 0.010148
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.569869 0.199049 0.004690
+		tran = 0.000000 0.833572 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_12-geometry 1"
+		template = "crate_12"
+		flags = "scenery"
+		link_pos = -497.297241 105.391724 449.421936
+		link_norm = 0.014573 0.999791 0.010872
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_12-geometry 2"
+		template = "crate_12"
+		flags = "scenery"
+		link_pos = -496.508453 105.389191 449.396240
+		link_norm = 0.013355 0.999810 0.010268
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_12-geometry 3"
+		template = "crate_12"
+		flags = "scenery"
+		link_pos = -495.735840 105.386124 449.412933
+		link_norm = 0.012106 0.999831 0.009615
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 -0.001793 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_12-geometry 4"
+		template = "crate_12"
+		flags = "scenery"
+		link_pos = -495.906616 105.387047 449.389740
+		link_norm = 0.012407 0.999825 0.009786
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.507147 1.512111 0.063760
+		tran = 0.000000 0.418732 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crate_12-geometry 5"
+		template = "crate_12"
+		flags = "scenery"
+		link_pos = -496.833252 105.392624 449.240845
+		link_norm = 0.014078 0.999793 0.010761
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.418846 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld03_012-geometry 1"
+		template = "bld03_012"
+		flags = "scenery"
+		link_pos = 171.960007 155.000000 468.440002
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.220001 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld03_04-geometry 1"
+		template = "bld03_04"
+		flags = "scenery"
+		link_pos = 158.523773 155.000000 463.643829
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.148285 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld03_03-geometry 1"
+		template = "bld03_03"
+		flags = "scenery"
+		link_pos = 178.205444 155.000000 439.724701
+		link_norm = 0.000031 1.000000 -0.000016
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.128738 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld03_02-geometry 1"
+		template = "bld03_02"
+		flags = "scenery"
+		link_pos = 144.699112 155.000000 468.942566
+		link_norm = 0.000000 1.000000 -0.000001
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.061218 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-cont_07-geometry 1"
+		template = "bld-cont_07"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 135.749680 155.000000 468.610748
+		link_norm = -0.000000 1.000000 -0.000001
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -1.570796 -0.000000 -3.141593
+		tran = 0.000000 -0.096069 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-cont_09-geometry 2"
+		template = "bld-cont_09"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 128.596558 155.000000 410.089661
+		link_norm = -0.009118 0.999266 -0.037043
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 -0.277359 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-cont_09-geometry 1"
+		template = "bld-cont_09"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 149.029999 155.000000 410.000000
+		link_norm = -0.005323 0.999964 0.005113
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.219696 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-cont_15-geometry 1"
+		template = "bld-cont_15"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 103.944237 155.000000 440.818817
+		link_norm = -0.089622 0.993902 -0.011144
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 -0.000000 -0.000000
+		tran = 0.000000 0.252289 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-hangar-01-geometry 1"
+		template = "bld-hangar-01"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 118.015732 155.000000 469.256897
+		link_norm = -0.001010 0.999998 0.000108
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 -0.000000 -0.000000
+		tran = 0.000000 0.145218 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pipe-14-geometry 1"
+		template = "pipe-14"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 184.759506 155.000000 458.209625
+		link_norm = 0.000981 0.999998 -0.000403
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "tube-misc_01-geometry 1"
+		template = "tube-misc_01"
+		flags = "scenery"
+		link_pos = 171.356888 155.000000 456.141266
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "misc_01-geometry 6"
+		template = "misc_01"
+		flags = "scenery"
+		link_pos = 157.394928 155.000000 462.617645
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 6.956833 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "misc_01-geometry 3"
+		template = "misc_01"
+		flags = "scenery"
+		link_pos = 181.869995 155.000000 434.081879
+		link_norm = 0.006421 0.999858 -0.003366
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 6.339996 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "misc_01-geometry 4"
+		template = "misc_01"
+		flags = "scenery"
+		link_pos = 157.400085 155.000000 463.713654
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 6.956833 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "misc_01-geometry 5"
+		template = "misc_01"
+		flags = "scenery"
+		link_pos = 181.869995 155.000000 433.000000
+		link_norm = 0.007133 0.999836 -0.003830
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 6.339996 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crane_04-geometry 1"
+		template = "crane_04"
+		flags = "scenery"
+		link_pos = 141.699127 155.000000 435.077240
+		link_norm = 0.002107 0.999945 -0.006736
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "block_concrete_16-geometry 2"
+		template = "block_concrete_16"
+		flags = "scenery"
+		link_pos = 186.891449 155.000000 451.930542
+		link_norm = 0.003074 0.999992 -0.000963
+		llink_norm_strength = 0.000000
+		scale = 1.500000 1.000000 1.500000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 -0.033890 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "block_concrete_16-geometry 1"
+		template = "block_concrete_16"
+		flags = "scenery"
+		link_pos = 179.070953 155.000000 461.204193
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.500000 1.000000 1.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 -0.030502 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "chemical_tank"
+		template = "cistern_08"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 158.053421 155.000000 477.759430
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "chemical_tank"
+		template = "cistern_01"
+		flags = "scenery" "damageable" factions = "teamred"
+		link_pos = 143.373871 155.000000 482.445068
+		link_norm = -0.000000 1.000000 0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.500000 0.500000 0.500000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld03_011-geometry 1"
+		template = "bld03_011"
+		flags = "scenery"
+		link_pos = 171.960007 155.000000 468.440002
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.220001 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-cr-01-geometry 2"
+		template = "fence-cr-01"
+		flags = "scenery"
+		link_pos = 195.000000 155.000000 464.660004
+		link_norm = 0.029838 0.999000 -0.007724
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 3.141593 -0.000000
+		tran = 0.000000 -0.008621 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-cr-01-geometry 1"
+		template = "fence-cr-01"
+		flags = "scenery"
+		link_pos = 195.000000 155.000000 434.519989
+		link_norm = 0.050904 0.998295 -0.013818
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 -0.012802 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "chimneysmoke 4"
+		template = "chimneysmoke"
+		flags = "particles"
+		link_pos = 171.994324 155.000000 464.690186
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570800 3.141590 -0.000000
+		tran = 0.000000 41.683441 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "chimneysmoke 2"
+		template = "chimneysmoke"
+		flags = "particles"
+		link_pos = 172.132416 155.000000 470.310974
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570800 3.141590 -0.000000
+		tran = 0.000000 41.632141 -0.000000
+	 }
+
+
+	 Instance
+	 {
+		name = "pinetr-geometry 46"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -231.392487 119.903496 531.010132
+		link_norm = -0.124169 0.991115 -0.037040
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -0.738279 -0.000000
+		tran = 0.000000 -0.925987 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 1"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -565.673828 76.653625 92.403076
+		link_norm = -0.068954 0.932847 -0.352784
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 2"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -585.571594 76.805550 92.535278
+		link_norm = 0.077734 0.932704 -0.351483
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 3"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -593.868652 82.848358 108.306931
+		link_norm = 0.014081 0.950384 -0.309702
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 4"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -608.815430 81.139343 100.099991
+		link_norm = 0.075930 0.950972 -0.299058
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 5"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -621.187500 84.826813 112.053062
+		link_norm = 0.146790 0.940474 -0.305237
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 6"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -650.879272 89.157974 110.038055
+		link_norm = 0.128332 0.968586 -0.212972
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 7"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -675.517700 92.684212 110.209061
+		link_norm = 0.145012 0.961661 -0.232585
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 8"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -673.631287 96.273621 128.724136
+		link_norm = 0.129976 0.971933 -0.194949
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 9"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -644.382446 94.626999 137.249619
+		link_norm = 0.113205 0.952946 -0.280422
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.658352 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 10"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -614.588013 97.730934 151.936646
+		link_norm = 0.020947 0.962466 -0.269251
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.867959 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 11"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -584.913208 102.131065 166.700760
+		link_norm = -0.094017 0.978779 -0.177991
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 12"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -555.612244 103.744873 160.333954
+		link_norm = -0.100796 0.960819 -0.258007
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 13"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -533.091858 101.150780 142.886017
+		link_norm = -0.120605 0.961432 -0.245101
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 14"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -565.980347 106.157875 175.731415
+		link_norm = -0.159540 0.969348 -0.180332
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 1.541411 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 15"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -601.607971 101.165817 167.279404
+		link_norm = -0.011538 0.982202 -0.185256
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 16"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -578.301331 105.024452 188.220062
+		link_norm = -0.156733 0.985550 -0.049982
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 17"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -637.829102 101.570770 168.064407
+		link_norm = 0.042785 0.985965 -0.160479
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 18"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -668.321167 101.056381 154.986053
+		link_norm = 0.051319 0.979745 -0.191827
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 19"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -113.044128 120.296394 390.679565
+		link_norm = -0.144706 0.985060 -0.092139
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 -0.935860 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 20"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -113.382233 122.625961 416.801331
+		link_norm = -0.130504 0.987044 -0.092757
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.867959 3.141593
+		tran = 0.000000 -0.919640 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 21"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -94.832367 124.162270 397.642517
+		link_norm = -0.165042 0.982000 -0.089188
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.923515 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 22"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -93.043800 127.215584 430.502930
+		link_norm = -0.168690 0.982009 -0.084053
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 0.427215 3.141593
+		tran = 0.000000 -0.925468 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 23"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -73.780617 128.970139 419.925873
+		link_norm = -0.163903 0.984055 -0.064030
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.921295 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 24"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -77.391785 126.601250 397.137939
+		link_norm = -0.153953 0.983696 -0.089121
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -0.000000 0.209595 0.000000
+		tran = 0.000000 -0.932655 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 25"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -56.055710 131.802658 407.868378
+		link_norm = -0.202390 0.976634 -0.068845
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.929260 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 26"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -58.469254 132.674927 430.119110
+		link_norm = -0.182260 0.982392 -0.039495
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 -0.942581 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 27"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -38.762093 135.233902 421.617828
+		link_norm = -0.136980 0.989919 -0.035059
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.940704 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 28"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -36.363766 134.536880 399.613953
+		link_norm = -0.143446 0.987525 -0.063953
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 -0.929230 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 29"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -198.398636 126.827271 484.865479
+		link_norm = -0.025748 0.996220 -0.069097
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -0.738279 -0.000000
+		tran = 0.000000 -0.925323 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 30"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -197.118088 124.620308 459.399200
+		link_norm = -0.065784 0.993650 -0.076037
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.916916 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 31"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -225.474777 120.509491 467.045898
+		link_norm = -0.239985 0.967849 -0.068229
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.928635 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 32"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -218.574799 118.456230 436.559937
+		link_norm = -0.193984 0.973091 -0.123159
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 1.396631 3.141593
+		tran = 0.000000 -0.941696 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 33"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -252.658371 114.426704 454.695984
+		link_norm = -0.109808 0.992508 -0.051561
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 -0.924103 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 34"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -224.594086 121.910812 497.849792
+		link_norm = -0.269933 0.962512 0.004645
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 -0.924805 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 35"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -250.420975 115.969124 486.596069
+		link_norm = -0.115828 0.992304 -0.042617
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.918709 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 36"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -255.136856 117.100342 521.108826
+		link_norm = -0.082661 0.994382 -0.063217
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 -0.934227 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 37"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -195.410461 124.372238 515.780090
+		link_norm = -0.020698 0.991800 0.119970
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.930931 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 38"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -272.655914 114.737381 503.295837
+		link_norm = -0.065788 0.995982 -0.058783
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.926041 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 39"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -280.614624 112.571297 469.094849
+		link_norm = -0.072427 0.996238 -0.047137
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 0.006040 3.141593
+		tran = 0.000000 -0.915382 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 40"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -213.671188 122.439690 526.902344
+		link_norm = -0.090714 0.993783 0.032623
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.928291 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 41"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -240.711456 120.829315 551.350403
+		link_norm = -0.094640 0.990845 -0.096063
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.930092 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 42"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -265.069763 117.778763 536.816528
+		link_norm = -0.066131 0.994085 -0.085926
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.924950 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 43"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -292.763519 115.172012 525.193420
+		link_norm = -0.063495 0.995381 -0.071802
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -0.923836 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 44"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -292.826324 112.973793 493.078888
+		link_norm = -0.057219 0.996063 -0.067494
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 -0.929764 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 45"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -240.340683 118.123962 504.732758
+		link_norm = -0.163136 0.986083 -0.027070
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 -0.912811 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 191"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 75.177856 116.846283 -539.092285
+		link_norm = -0.040048 0.983774 -0.172944
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 47"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1218.706421 13.254105 -115.062881
+		link_norm = -0.032801 0.948969 -0.302795
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 3.141592 -1.043921 -3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 48"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1233.813843 9.322571 -132.526581
+		link_norm = -0.066154 0.990663 -0.103260
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -0.707070 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 49"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1203.452881 12.433937 -123.959732
+		link_norm = -0.068395 0.979740 -0.178792
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -0.707070 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 50"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1166.599609 16.699440 -111.454651
+		link_norm = -0.036309 0.957772 -0.280898
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.456602 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 51"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1177.762695 12.868744 -129.682159
+		link_norm = -0.046675 0.994323 -0.094913
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 52"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1216.080933 10.636047 -144.384430
+		link_norm = -0.081952 0.981916 0.129416
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.456602 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 53"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1235.248047 11.481888 -156.844971
+		link_norm = -0.129556 0.940932 0.303158
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 54"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1183.585327 13.469093 -146.054779
+		link_norm = -0.067002 0.963799 0.230715
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 55"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1153.822021 13.549034 -133.048721
+		link_norm = -0.048592 0.993083 0.008422
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 56"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1143.073364 16.835747 -113.820923
+		link_norm = -0.011925 0.972645 -0.225464
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 3.141592 -0.636797 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 57"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1123.681885 14.869591 -125.974319
+		link_norm = -0.025434 0.994926 -0.007142
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 58"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1111.116089 17.697029 -105.378036
+		link_norm = 0.047530 0.967178 -0.234327
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 59"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1103.677856 15.665215 -119.542007
+		link_norm = -0.025752 0.997110 -0.067127
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.456602 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 60"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1248.858643 111.701881 78.658325
+		link_norm = -0.014284 0.995791 0.089024
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 61"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1253.068237 112.734375 63.710461
+		link_norm = 0.003021 0.999306 0.011825
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 62"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1219.945068 112.620636 67.014214
+		link_norm = -0.003532 0.999942 0.001729
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 63"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1228.135864 112.439850 54.007679
+		link_norm = 0.002671 0.999764 -0.020842
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 64"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1210.413940 112.367996 49.426170
+		link_norm = -0.004896 0.999562 -0.028843
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 65"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1234.839233 111.837585 35.493206
+		link_norm = 0.004496 0.998331 -0.055652
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 66"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1253.793457 112.805069 116.769485
+		link_norm = 0.003065 0.995059 -0.098554
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 67"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1232.203369 112.814362 118.588615
+		link_norm = -0.002585 0.992567 -0.120646
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 68"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1251.539673 115.301437 138.902283
+		link_norm = -0.031521 0.989193 -0.142267
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 69"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1228.292480 115.166504 134.198944
+		link_norm = -0.009096 0.988002 -0.153633
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 70"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1212.900757 113.671898 123.552841
+		link_norm = -0.004021 0.990839 -0.134782
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 71"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1232.141479 118.328949 150.830643
+		link_norm = -0.000586 0.965305 -0.257445
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 72"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1203.961792 116.871475 144.792725
+		link_norm = 0.001166 0.979876 -0.195636
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 73"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1191.037964 114.666199 130.597366
+		link_norm = 0.026056 0.986941 -0.158472
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 74"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1209.400024 112.510895 80.315353
+		link_norm = -0.015318 0.995941 0.088555
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 75"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1187.481812 112.965591 76.834206
+		link_norm = -0.014387 0.996706 0.063955
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 76"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1201.656250 110.977379 25.777565
+		link_norm = 0.003929 0.994156 -0.105246
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 77"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1171.719482 112.507607 44.990868
+		link_norm = -0.000447 0.998356 -0.054974
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.867959 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 78"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1163.354980 113.139084 60.871937
+		link_norm = -0.006249 0.999583 -0.027747
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 0.427215 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 79"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1174.038208 117.894867 150.606567
+		link_norm = 0.035450 0.978458 -0.202788
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 80"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1171.477661 114.991386 135.141113
+		link_norm = 0.003935 0.988109 -0.152876
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 81"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1153.708252 113.812080 127.803864
+		link_norm = 0.013427 0.988621 -0.149528
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 82"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1153.503296 115.898460 141.593857
+		link_norm = 0.024311 0.989192 -0.143612
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 83"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1161.461914 113.400681 73.629288
+		link_norm = -0.012177 0.998109 0.024888
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 84"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1145.152100 112.912186 53.819153
+		link_norm = 0.006296 0.998490 -0.052387
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 85"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1254.741699 119.593483 -404.336670
+		link_norm = 0.010579 0.999884 0.009532
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 86"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1254.259155 119.415550 -384.962891
+		link_norm = 0.017419 0.999801 0.009471
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 87"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1226.837158 118.977470 -391.233734
+		link_norm = 0.008849 0.998425 0.035656
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 88"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1234.241943 118.782410 -366.629669
+		link_norm = 0.020430 0.999734 0.010554
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 89"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1213.436646 118.461609 -371.198730
+		link_norm = 0.014431 0.999867 0.007334
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.658352 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 90"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1245.635132 118.865952 -350.854523
+		link_norm = 0.019811 0.999723 0.012652
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 91"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1219.100586 118.332611 -343.804443
+		link_norm = 0.013824 0.999858 0.009616
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 92"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1205.614990 118.274582 -355.724030
+		link_norm = 0.011586 0.999902 0.007758
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 93"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1251.441772 118.700974 -330.177307
+		link_norm = 0.017554 0.999747 0.014056
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 94"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1225.304199 118.240532 -327.523193
+		link_norm = 0.013354 0.999856 0.010286
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 95"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1243.836182 118.271927 -307.131378
+		link_norm = 0.012732 0.999863 0.010310
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 96"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1251.447510 118.224182 -291.623627
+		link_norm = 0.006179 0.999730 0.021321
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 97"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1223.692261 117.991745 -291.815918
+		link_norm = 0.005219 0.999973 0.004961
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.867959 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 98"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1225.254395 118.077469 -309.099182
+		link_norm = 0.008328 0.999942 0.006519
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 99"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1202.092651 118.010017 -325.836548
+		link_norm = 0.005580 0.999972 0.004606
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 100"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1204.701050 117.963463 -306.263336
+		link_norm = 0.003910 0.999988 0.002992
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 101"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -1187.359375 118.055321 -350.205719
+		link_norm = 0.005229 0.999964 0.006459
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 102"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -2.014595 54.659187 -119.308395
+		link_norm = 0.027310 0.980238 0.192625
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 103"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -18.288563 54.522804 -114.561935
+		link_norm = 0.015222 0.964638 0.257503
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 104"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 35.822144 55.352425 -118.814056
+		link_norm = -0.023362 0.972485 0.230869
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 105"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 17.939285 53.810692 -114.264664
+		link_norm = -0.023543 0.966299 0.253531
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 106"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 134.165894 57.607460 -105.026688
+		link_norm = -0.111364 0.973105 0.196558
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 107"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 115.550331 57.055107 -110.775558
+		link_norm = -0.059412 0.985140 0.158653
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 108"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 25.348217 99.637146 -209.078827
+		link_norm = -0.118850 0.986599 0.100952
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 109"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 45.641666 99.436005 -197.454849
+		link_norm = -0.062395 0.979284 0.185841
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 110"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 44.364742 101.753677 -235.494568
+		link_norm = -0.032759 0.999424 0.006964
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 111"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 18.049786 100.759079 -259.200043
+		link_norm = -0.104005 0.992665 0.043538
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 112"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 36.005333 101.154793 -219.770782
+		link_norm = -0.057402 0.997363 0.040804
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 113"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 65.374748 102.276398 -218.835663
+		link_norm = -0.039633 0.998837 0.025026
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 114"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 66.158691 102.383255 -240.356171
+		link_norm = -0.030768 0.999520 -0.003313
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 115"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 39.785950 101.755783 -266.661835
+		link_norm = -0.023175 0.999683 0.009414
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 116"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 24.761841 101.811989 -296.170563
+		link_norm = -0.027514 0.999447 0.016161
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 117"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 58.249435 102.220871 -271.509369
+		link_norm = -0.024250 0.999676 0.007405
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 118"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 75.244812 102.693497 -258.828766
+		link_norm = -0.034336 0.999406 0.001019
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 119"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 140.279190 87.998367 140.096405
+		link_norm = 0.005526 0.983459 -0.180733
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 120"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 115.422546 86.810722 133.494705
+		link_norm = -0.042560 0.982322 -0.179873
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 121"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 109.877594 91.554329 165.080765
+		link_norm = -0.053235 0.980261 -0.189053
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 122"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 83.149010 88.541122 154.956009
+		link_norm = -0.002556 0.978841 -0.201655
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 123"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 89.541931 85.682182 135.733932
+		link_norm = -0.055894 0.978561 -0.196756
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.658352 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 124"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 55.240387 87.024406 142.403534
+		link_norm = 0.062269 0.970588 -0.231916
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 125"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 34.709503 86.633095 133.164246
+		link_norm = 0.083605 0.966665 -0.241075
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 0.518034 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 126"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 47.501740 93.669006 165.943115
+		link_norm = 0.117055 0.958465 -0.259458
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 127"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 73.306229 83.497955 129.398987
+		link_norm = -0.017857 0.963160 -0.266573
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 128"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 136.427185 85.068954 124.237999
+		link_norm = 0.032614 0.969006 -0.238658
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 129"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -287.080444 7.121696 -104.740250
+		link_norm = 0.002763 0.998716 -0.044992
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 130"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -316.050659 8.422043 -94.511002
+		link_norm = 0.020445 0.992214 -0.119658
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 131"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -338.147156 7.002373 -119.695473
+		link_norm = 0.023729 0.999333 0.022395
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 132"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -301.099548 6.532951 -127.130348
+		link_norm = -0.002748 0.999826 0.003495
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 133"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -272.157593 8.838943 -78.877243
+		link_norm = 0.035367 0.993947 -0.102884
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 134"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -250.052689 10.247650 -61.199196
+		link_norm = 0.056500 0.988254 -0.140209
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 135"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -253.961395 8.325264 -90.301697
+		link_norm = -0.091114 0.993373 0.035053
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 136"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -267.246277 9.001587 -119.685455
+		link_norm = -0.194336 0.972002 0.123206
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 137"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -312.423706 11.225876 -76.808884
+		link_norm = 0.060630 0.972535 -0.221736
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 138"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -369.911163 8.019783 -96.990829
+		link_norm = -0.009532 0.996212 -0.082213
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 139"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -238.783340 9.085915 -73.732422
+		link_norm = -0.071408 0.992083 0.021243
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 140"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -225.984253 10.582100 -52.743362
+		link_norm = 0.017879 0.992506 -0.101106
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 141"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -215.679108 10.574669 -60.792942
+		link_norm = -0.107649 0.979978 0.128041
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 142"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -189.986145 12.112579 -21.384827
+		link_norm = 0.106421 0.981911 -0.154414
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -0.000000 0.209595 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 143"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -198.680145 10.232239 -44.105507
+		link_norm = -0.003655 0.994476 0.001119
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 144"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -173.193481 10.046417 -42.348469
+		link_norm = -0.020949 0.976703 0.173481
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 145"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -166.803040 10.029144 -22.663136
+		link_norm = 0.060364 0.994221 -0.081063
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 146"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -142.770538 8.954697 -21.900963
+		link_norm = 0.033421 0.996542 -0.037984
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 147"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -149.542206 11.732056 -3.246058
+		link_norm = 0.086813 0.975010 -0.198097
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 148"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 43.071487 13.195282 2.265297
+		link_norm = -0.074113 0.987270 -0.129776
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 149"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 25.481588 11.855988 -14.392414
+		link_norm = -0.054272 0.982555 0.150738
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 150"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 18.962629 14.051224 11.769653
+		link_norm = -0.065681 0.970604 -0.225446
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 151"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 60.607773 15.498062 -20.561588
+		link_norm = -0.074701 0.970249 0.229022
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 152"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 74.754822 15.767197 -1.681240
+		link_norm = -0.114824 0.986779 -0.096771
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 3.141592 -0.636797 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 153"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 108.244659 18.766144 -13.344440
+		link_norm = -0.086217 0.993355 -0.003706
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 154"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 6.427771 10.981491 -3.662472
+		link_norm = -0.056004 0.994934 -0.044616
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 155"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 102.148232 20.252716 4.723801
+		link_norm = -0.131198 0.968468 -0.203183
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 156"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 144.618011 22.126740 -3.503616
+		link_norm = -0.013476 0.987711 -0.148134
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 157"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 139.012543 20.854660 -21.804035
+		link_norm = -0.029734 0.989289 0.112622
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 158"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 178.494385 21.941681 3.269993
+		link_norm = 0.089978 0.980801 -0.166892
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.596163 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 159"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -174.157928 103.767914 -201.928635
+		link_norm = 0.014358 0.996929 0.076351
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 160"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -156.789505 104.893509 -233.251556
+		link_norm = 0.019991 0.999620 0.018525
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 161"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -145.146408 103.191879 -201.062897
+		link_norm = 0.020976 0.995767 0.088920
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 162"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -138.570328 100.182350 -179.772995
+		link_norm = 0.032324 0.980538 0.193249
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 163"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -128.991791 103.881874 -226.982803
+		link_norm = 0.060698 0.997515 0.024212
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 164"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -184.499817 105.209969 -229.982071
+		link_norm = 0.007447 0.999539 0.029308
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 165"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -174.758545 101.033836 -178.287857
+		link_norm = 0.035788 0.984155 0.171566
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 0.518034 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 166"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -211.298843 104.578796 -216.577759
+		link_norm = -0.023877 0.998052 0.056204
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 167"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -190.090546 105.871490 -265.935944
+		link_norm = 0.013680 0.999821 0.013111
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 168"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -145.478928 104.919998 -252.023911
+		link_norm = 0.020817 0.998675 0.032896
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 169"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -225.997955 105.855133 -250.116089
+		link_norm = -0.005925 0.999283 0.036975
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 170"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -137.268082 117.996964 -311.414398
+		link_norm = 0.102045 0.990782 -0.036715
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 171"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -134.563293 117.738235 -331.546143
+		link_norm = 0.036622 0.989641 0.093288
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.658352 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 172"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -145.805801 123.060989 -353.702759
+		link_norm = -0.046443 0.946727 0.307563
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 173"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -127.201691 125.779587 -372.389252
+		link_norm = 0.099081 0.990358 0.051598
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 174"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 37.139748 118.068726 -367.280273
+		link_norm = -0.180500 0.953844 0.221872
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.596163 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 175"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 51.729385 116.487228 -352.320404
+		link_norm = -0.157121 0.946860 0.269514
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 176"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 4.778137 114.006424 -383.925171
+		link_norm = -0.084560 0.994465 -0.028258
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 177"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 30.512428 119.389496 -389.285156
+		link_norm = -0.231371 0.971379 0.018975
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 178"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 14.757919 116.237640 -355.521301
+		link_norm = -0.071273 0.987303 0.087593
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 179"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 15.485062 117.372314 -415.230255
+		link_norm = -0.002549 0.992149 0.062398
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 180"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 50.193390 120.045975 -400.371643
+		link_norm = 0.000630 0.995227 -0.095353
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 181"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 29.414299 116.815323 -427.105072
+		link_norm = 0.007076 0.998769 -0.031215
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.596163 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 182"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 62.341835 120.187729 -426.323486
+		link_norm = -0.122916 0.977950 0.133946
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 183"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 25.027504 119.027039 -456.993805
+		link_norm = 0.173154 0.980305 0.088431
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 184"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 72.319099 121.232056 -457.245331
+		link_norm = -0.113105 0.987797 -0.103918
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 185"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 47.651672 117.607315 -455.022339
+		link_norm = -0.096692 0.992555 -0.011763
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 186"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 27.064499 121.245239 -490.867981
+		link_norm = 0.052835 0.997553 0.006585
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 187"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 13.530205 117.746307 -526.539673
+		link_norm = -0.051472 0.995746 -0.067214
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 188"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 52.244789 119.454208 -510.871674
+		link_norm = 0.000107 0.997997 -0.060260
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 189"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 91.159203 122.826019 -484.724915
+		link_norm = -0.185856 0.981469 -0.001431
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 190"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 28.053810 115.824112 -561.295349
+		link_norm = 0.045791 0.998208 -0.038023
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 354"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -499.831390 11.070923 -25.725510
+		link_norm = -0.062067 0.984235 -0.159946
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 192"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 340.128540 112.812637 -233.173584
+		link_norm = -0.167802 0.983236 0.067140
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 193"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 339.501801 113.771568 -258.468353
+		link_norm = -0.222123 0.974575 0.017092
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 194"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 302.161499 109.865585 -266.527985
+		link_norm = -0.040742 0.998964 0.018204
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 195"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 307.080353 109.336349 -234.604538
+		link_norm = -0.034110 0.999178 0.020291
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 196"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 332.314148 109.086143 -194.393127
+		link_norm = -0.051587 0.997397 0.044030
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 197"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 409.187653 122.305847 -241.542419
+		link_norm = -0.053890 0.993049 0.104375
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 198"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 341.292236 112.384819 -318.655548
+		link_norm = -0.062811 0.997512 -0.019440
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 199"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 280.570007 112.236717 -297.435486
+		link_norm = 0.048892 0.986718 0.154091
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 200"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 248.710297 110.936966 -289.968109
+		link_norm = -0.036907 0.984061 0.173793
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 201"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 262.136566 108.379501 -240.877228
+		link_norm = -0.025339 0.999654 0.006796
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 202"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 281.958557 108.466393 -207.576492
+		link_norm = -0.016017 0.999738 0.016105
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 203"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 315.443665 115.237862 -343.244904
+		link_norm = 0.117819 0.980539 0.156656
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 204"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 268.459351 119.514458 -340.004883
+		link_norm = 0.040109 0.992633 0.113839
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 205"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 375.405212 116.796738 -310.639771
+		link_norm = -0.114651 0.987076 -0.108633
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.596163 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 206"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 402.340759 123.003410 -283.521606
+		link_norm = -0.067909 0.994866 -0.073243
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 207"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 412.310730 118.180565 -206.138397
+		link_norm = -0.086230 0.984832 0.149575
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 208"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 371.260071 116.921806 -218.444717
+		link_norm = -0.134626 0.978614 0.154582
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 209"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 230.980011 107.716919 -255.391541
+		link_norm = -0.029203 0.999468 0.014434
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 210"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 230.277588 119.618401 -341.045105
+		link_norm = -0.037374 0.995225 0.090046
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 211"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 210.047974 109.401115 -296.627838
+		link_norm = -0.091302 0.983325 0.154238
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 212"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 186.866119 112.074905 -324.918793
+		link_norm = -0.145517 0.968934 0.199731
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 213"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 191.574371 106.469955 -243.503418
+		link_norm = -0.026912 0.999547 0.013383
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 214"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 218.040039 106.682213 -193.936646
+		link_norm = -0.034843 0.999279 0.014845
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 215"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 215.683945 106.950172 -224.744263
+		link_norm = -0.032838 0.999417 0.008772
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 216"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 248.512650 107.510422 -191.218735
+		link_norm = -0.023552 0.999571 0.017348
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 217"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 262.351257 107.330910 -165.521591
+		link_norm = -0.011995 0.999763 0.018001
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 218"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 298.596619 107.620941 -163.832245
+		link_norm = -0.013668 0.999693 0.020471
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 219"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 352.935333 109.070976 -171.185684
+		link_norm = -0.028123 0.998831 0.034559
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 220"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 402.528809 110.617310 -171.357819
+		link_norm = -0.093546 0.988041 0.118684
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 221"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 354.663940 108.802872 -146.607391
+		link_norm = -0.023154 0.999646 0.007457
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.867959 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 222"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 324.562836 107.745125 -140.320557
+		link_norm = -0.027290 0.999524 0.014259
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 223"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 381.135925 109.187622 -127.144943
+		link_norm = -0.018631 0.999792 -0.007203
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 224"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 425.493958 112.438843 -155.161331
+		link_norm = -0.131075 0.990601 0.034155
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 225"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 344.733826 107.772911 -109.373657
+		link_norm = -0.040577 0.998542 0.035137
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 226"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 304.332764 106.228111 -110.376907
+		link_norm = -0.045506 0.996119 0.074369
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 227"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 391.751160 109.184059 -95.696983
+		link_norm = -0.033418 0.999019 0.028596
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.596163 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 228"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 961.736267 5.781509 4.817833
+		link_norm = 0.000776 0.999141 -0.009757
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 229"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 956.211304 7.379105 26.284634
+		link_norm = 0.027617 0.986173 -0.157306
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 230"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1005.171265 5.718399 12.638147
+		link_norm = 0.003523 0.999665 -0.005941
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -0.000000 1.182261 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 231"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1024.857666 7.208923 38.319458
+		link_norm = 0.044702 0.990116 -0.127997
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 232"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1056.808838 8.444656 56.620117
+		link_norm = 0.059132 0.980814 -0.179149
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.243090 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 233"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 994.622925 7.424957 32.201206
+		link_norm = 0.037341 0.988259 -0.144098
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 234"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1098.325928 10.686897 81.402962
+		link_norm = 0.023328 0.985031 -0.165054
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 235"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1056.428345 5.901215 28.820217
+		link_norm = -0.004238 0.999444 -0.019460
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 236"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1140.621826 13.745659 103.929581
+		link_norm = -0.031354 0.983879 -0.087604
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 0.243090 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 237"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1204.328613 14.831963 111.342422
+		link_norm = 0.019414 0.990473 -0.095022
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 238"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 933.407471 6.579895 12.325891
+		link_norm = 0.039325 0.993402 -0.098391
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 239"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 977.965332 6.264435 18.535965
+		link_norm = 0.011104 0.997142 -0.071728
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 240"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1070.096802 120.899338 -138.346222
+		link_norm = -0.094644 0.993835 0.057317
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 241"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1047.230713 119.415039 -163.845367
+		link_norm = -0.090595 0.995473 0.016983
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 242"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1027.123535 117.845467 -133.012604
+		link_norm = -0.070997 0.986380 0.132291
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 243"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1017.041565 118.228691 -181.869965
+		link_norm = 0.003924 0.999936 -0.007250
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 244"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1066.655151 122.783585 -199.732010
+		link_norm = -0.156682 0.987525 0.012296
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -1.243764 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 245"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1042.538574 119.125977 -224.357910
+		link_norm = -0.094696 0.994909 0.016457
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 -0.871107 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 246"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1010.072510 118.400543 -151.152832
+		link_norm = -0.002809 0.999887 0.013320
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 247"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 994.816956 118.653061 -202.005646
+		link_norm = 0.012807 0.999776 0.006300
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 248"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1071.045898 119.514099 -114.624336
+		link_norm = -0.070209 0.993292 0.089984
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 249"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1046.602417 119.951279 -258.909332
+		link_norm = -0.076645 0.996746 -0.023164
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -0.738375 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 250"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1074.598511 123.612091 -238.509918
+		link_norm = -0.179490 0.983164 -0.026225
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -0.738375 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 251"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1093.102051 124.800163 -264.586090
+		link_norm = -0.104891 0.985420 -0.129982
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 -0.871107 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 252"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1086.877563 126.595764 -217.402817
+		link_norm = -0.169189 0.984854 0.003452
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -1.289021 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 253"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1246.758057 73.848732 -411.674561
+		link_norm = -0.008898 0.999850 -0.012472
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -0.738375 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 254"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1224.977661 76.199570 -375.924377
+		link_norm = 0.048389 0.990260 -0.126062
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 255"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1211.856567 74.044189 -404.981964
+		link_norm = 0.008900 0.998997 -0.042255
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 256"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1180.630127 73.866486 -429.222137
+		link_norm = 0.017864 0.999754 -0.012528
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 257"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1166.888184 75.160400 -404.558502
+		link_norm = 0.037808 0.996051 -0.076268
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 258"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1142.989502 74.443718 -430.446960
+		link_norm = 0.009960 0.999578 -0.027050
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 259"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1120.373535 78.163742 -397.319275
+		link_norm = -0.003454 0.978101 -0.206183
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 260"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1186.523315 76.868866 -382.088562
+		link_norm = 0.068039 0.985507 -0.153051
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 261"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1145.237183 77.465042 -396.915009
+		link_norm = 0.050698 0.985306 -0.153575
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 262"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1256.883545 74.674118 -386.189667
+		link_norm = 0.007448 0.998704 -0.048002
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 263"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1257.192505 76.201431 -363.333954
+		link_norm = 0.033015 0.992070 -0.114261
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.871107 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 264"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1214.934692 73.548943 -429.703156
+		link_norm = -0.005487 0.999801 0.007842
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 265"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1251.458862 117.764206 -514.154907
+		link_norm = 0.089161 0.976353 0.182970
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 266"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1248.024170 116.640572 -489.550262
+		link_norm = -0.011601 0.999309 0.015492
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -0.738375 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 267"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 1217.799561 118.330292 -503.234009
+		link_norm = 0.047932 0.958786 0.273881
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 268"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 807.044434 151.330032 -592.593628
+		link_norm = 0.035149 0.969891 0.233985
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 269"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 780.522217 150.788055 -593.262390
+		link_norm = -0.029795 0.987841 0.152081
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 270"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 757.791809 147.792175 -577.189575
+		link_norm = -0.008184 0.979886 0.190773
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 3.141592 -0.218880 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 271"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 736.784302 148.366745 -586.756897
+		link_norm = -0.041478 0.993061 0.109647
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -1.532110 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 272"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 717.293762 145.655807 -569.491943
+		link_norm = -0.040006 0.983010 0.172125
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 273"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 677.700867 143.596222 -577.521118
+		link_norm = -0.101373 0.987062 0.115555
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 274"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 697.894714 145.641159 -580.020142
+		link_norm = -0.075893 0.993334 0.086646
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -0.000000 1.091455 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 275"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 633.016052 141.047379 -601.192139
+		link_norm = -0.098326 0.991918 0.079175
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 276"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 654.824463 141.709290 -581.976318
+		link_norm = -0.127984 0.979853 0.145079
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 277"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 447.115845 118.026970 346.014648
+		link_norm = -0.112918 0.992863 0.024695
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 278"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 409.402954 114.340614 344.292786
+		link_norm = -0.026133 0.998888 0.030870
+		llink_norm_strength = 0.000000
+		scale = 0.900000 0.900000 0.900000
+		rot = -3.141593 0.527064 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 279"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 409.735626 117.211349 429.154419
+		link_norm = 0.113768 0.991756 -0.058936
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 0.518034 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 280"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 486.265198 118.236588 390.038330
+		link_norm = 0.060329 0.996078 0.051889
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 0.000000 -0.689970 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 281"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 465.361359 115.549782 477.459991
+		link_norm = 0.038937 0.997863 -0.050456
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 282"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 474.727234 118.541367 342.236053
+		link_norm = 0.067453 0.995921 -0.050549
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 283"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 501.336884 115.944588 342.577728
+		link_norm = 0.073460 0.997143 -0.009676
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 284"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 443.230347 116.269325 303.798645
+		link_norm = -0.087573 0.995065 -0.041974
+		llink_norm_strength = 0.000000
+		scale = 0.900000 0.900000 0.900000
+		rot = -3.141593 -1.458067 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 285"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 396.006561 114.120743 311.178345
+		link_norm = 0.022462 0.999097 -0.026114
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 286"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 366.721497 118.592575 375.388794
+		link_norm = 0.148026 0.985481 -0.074462
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.596163 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 287"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 409.161682 115.144341 394.109802
+		link_norm = 0.088358 0.994866 -0.047110
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 288"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 517.297180 114.571007 456.149841
+		link_norm = -0.008887 0.999919 -0.007754
+		llink_norm_strength = 0.000000
+		scale = 0.900000 0.900000 0.900000
+		rot = 0.000000 -0.569333 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 289"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 541.899231 114.563690 384.641418
+		link_norm = 0.005837 0.999889 0.009059
+		llink_norm_strength = 0.000000
+		scale = 0.900000 0.900000 0.900000
+		rot = 0.000000 -0.569333 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 290"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 515.848938 115.319756 384.431000
+		link_norm = 0.072260 0.997260 0.001582
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 291"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 546.129333 115.280388 466.868896
+		link_norm = -0.036562 0.998584 -0.036655
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 292"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 569.280029 114.196465 417.286438
+		link_norm = -0.029533 0.999099 -0.028897
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 293"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 540.592041 114.803528 331.844086
+		link_norm = 0.009160 0.999915 0.006922
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -0.000000 1.323791 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 294"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 517.482910 115.830490 308.981903
+		link_norm = 0.019020 0.999533 0.014729
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 295"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 488.717255 116.769379 288.048218
+		link_norm = 0.047430 0.998774 -0.006822
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 296"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 575.358215 115.153282 342.701019
+		link_norm = -0.016980 0.999740 0.013553
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 297"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 601.339966 119.053009 456.159790
+		link_norm = -0.120945 0.990643 -0.062511
+		llink_norm_strength = 0.000000
+		scale = 0.900000 0.900000 0.900000
+		rot = 0.000000 -0.569333 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 298"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 601.531006 116.169395 385.668793
+		link_norm = -0.094262 0.995415 0.014859
+		llink_norm_strength = 0.000000
+		scale = 0.900000 0.900000 0.900000
+		rot = 0.000000 -0.569333 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 299"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 538.758850 115.326271 272.418823
+		link_norm = -0.007381 0.999935 -0.002117
+		llink_norm_strength = 0.000000
+		scale = 0.900000 0.900000 0.900000
+		rot = 0.000000 -0.569333 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 300"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 458.344055 114.652367 259.746094
+		link_norm = -0.068197 0.992890 -0.097382
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 301"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 435.159058 114.922485 422.453278
+		link_norm = 0.029698 0.999140 -0.011946
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 302"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 417.166107 112.606720 274.276886
+		link_norm = -0.027045 0.998780 -0.035730
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 303"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 465.170746 117.280853 308.643188
+		link_norm = 0.012767 0.999530 -0.012977
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 304"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 592.199768 115.802078 302.955902
+		link_norm = -0.012510 0.999859 0.010147
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 305"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 628.537537 118.943832 362.701233
+		link_norm = -0.096189 0.995153 -0.019540
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 0.000000 -0.689970 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 306"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 632.390686 121.467056 439.959015
+		link_norm = -0.125798 0.989511 -0.070447
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 0.000000 -0.689970 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 307"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 622.327148 116.347244 302.180237
+		link_norm = -0.028076 0.999403 -0.018434
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 308"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 497.986603 113.752350 238.055176
+		link_norm = -0.011204 0.994907 -0.098878
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 0.000000 -0.689970 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 309"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 428.419281 110.934494 235.745850
+		link_norm = -0.033358 0.992824 -0.111946
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 3.141593 1.349762 -3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 310"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 378.047882 114.251266 280.068909
+		link_norm = 0.076897 0.995821 -0.049148
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 311"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = 572.704163 120.318649 520.518616
+		link_norm = -0.105450 0.992568 -0.059810
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 312"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -178.184082 103.634781 168.103394
+		link_norm = -0.018837 0.996705 -0.077446
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.596163 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 313"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -140.965607 104.592918 175.131714
+		link_norm = -0.010782 0.996062 -0.087913
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.867959 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 314"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -151.258408 101.573578 148.463013
+		link_norm = 0.000139 0.986828 -0.160498
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 315"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -199.173737 99.877678 140.826141
+		link_norm = -0.000624 0.986362 -0.164169
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 316"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -121.142586 101.685524 150.507416
+		link_norm = 0.012320 0.988104 -0.153064
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 317"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -175.820160 105.673897 198.432083
+		link_norm = -0.022649 0.997885 -0.060803
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 318"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -117.122360 105.268333 179.512695
+		link_norm = 0.073782 0.988765 -0.097153
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 319"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -210.549469 106.813492 200.878052
+		link_norm = 0.102531 0.993210 0.043359
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 320"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -321.505676 112.468025 172.006897
+		link_norm = -0.082873 0.988740 -0.048191
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 321"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -343.103638 106.666054 148.333755
+		link_norm = -0.062196 0.981531 -0.172368
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 3.141592 -0.636797 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 322"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -379.177368 105.979698 186.599747
+		link_norm = -0.042352 0.995744 0.061281
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 323"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -310.742767 107.970490 148.615265
+		link_norm = 0.018080 0.988154 -0.151358
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 324"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -369.429382 105.254814 138.551315
+		link_norm = 0.028920 0.966500 -0.254050
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 325"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -434.811157 105.725777 181.874908
+		link_norm = -0.003927 0.999815 0.011837
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.658352 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 326"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -398.679169 106.597717 150.536774
+		link_norm = -0.078858 0.986437 -0.141567
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 327"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -425.827515 104.904991 144.007797
+		link_norm = -0.004460 0.996099 -0.084910
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 328"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -458.866516 105.808777 163.417343
+		link_norm = 0.010624 0.999721 -0.020075
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 329"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -465.244751 104.333733 133.491531
+		link_norm = -0.003192 0.993027 -0.114442
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 330"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -489.252197 107.431412 170.819412
+		link_norm = 0.068272 0.993439 -0.090394
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 331"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -400.831573 102.789963 126.586655
+		link_norm = 0.020680 0.985423 -0.166955
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.658352 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 332"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -540.341980 104.471695 -187.134949
+		link_norm = 0.004122 0.999633 0.026637
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 333"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -517.947937 103.128319 -159.756393
+		link_norm = 0.030954 0.996216 0.080242
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 334"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -491.730927 103.448807 -182.688995
+		link_norm = 0.049611 0.996918 0.059791
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.057985 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 335"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -521.147339 105.213646 -214.270218
+		link_norm = -0.001070 0.999614 0.027594
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = 0.000000 -1.159453 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 336"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -556.743713 105.411919 -246.283783
+		link_norm = -0.010628 0.999829 0.015039
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 337"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -582.241516 104.843239 -220.417557
+		link_norm = -0.000873 0.999951 0.009623
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -0.000000 0.809943 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 338"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -493.961609 105.432449 -225.763519
+		link_norm = 0.011244 0.999384 0.032797
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -1.237173 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 339"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -513.422913 106.204025 -259.846008
+		link_norm = -0.006382 0.999637 0.025561
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 340"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -458.856049 103.201126 -207.669586
+		link_norm = 0.073784 0.993026 0.090720
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 -0.732239 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 341"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -467.282379 105.593124 -241.734451
+		link_norm = 0.017449 0.999172 0.036189
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 342"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -609.376343 104.327461 -207.979797
+		link_norm = -0.056219 0.987197 0.136358
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 0.000000 -0.790223 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 343"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -627.485535 104.935120 -260.322205
+		link_norm = -0.003103 0.999984 -0.004423
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 344"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -656.295410 105.076935 -228.421509
+		link_norm = 0.002015 0.998521 0.029159
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 -1.114196 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 345"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -431.114502 102.140884 -217.873962
+		link_norm = 0.081803 0.987747 0.131694
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = 3.141592 -0.636797 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 346"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -441.115356 106.057426 -265.108124
+		link_norm = 0.009758 0.999260 0.036803
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 347"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -414.343964 104.877167 -252.750595
+		link_norm = 0.028170 0.996307 0.080286
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 348"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -402.762665 102.046104 -231.817841
+		link_norm = 0.060127 0.987010 0.148165
+		llink_norm_strength = 0.000000
+		scale = 0.800000 0.800000 0.800000
+		rot = -3.141593 0.427215 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 349"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -408.743042 9.442352 -76.593872
+		link_norm = -0.029833 0.992072 -0.118279
+		llink_norm_strength = 0.000000
+		scale = 0.950000 0.950000 0.950000
+		rot = -3.141593 -0.867959 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 350"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -441.568146 9.256805 -64.979240
+		link_norm = -0.014927 0.996010 -0.065113
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -3.141593 0.381958 3.141593
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 351"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -448.106873 11.861542 -42.967205
+		link_norm = -0.091820 0.978240 -0.182759
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = -0.000000 -1.390597 0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 352"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -476.968292 9.935089 -44.228302
+		link_norm = -0.021476 0.995737 -0.060113
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pinetr-geometry 353"
+		template = "pinetree"
+		flags = "scenery"
+		link_pos = -513.357422 9.697021 -47.804672
+		link_norm = 0.016262 0.980228 0.172329
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	}
+
+}
+
+ObjectContainer
+{
+	owner = "Origin Plane (XZ)"
+
+}
