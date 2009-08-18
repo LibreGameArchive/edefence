@@ -1,0 +1,632 @@
+
+TerrainZone
+{
+	name = "Island"
+
+	Instances
+	{
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = -123.581268 24.685911 -516.190796
+		link_norm = -0.046494 0.998423 -0.011208
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.814360 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = 342.606873 9.977145 401.437225
+		link_norm = -0.021004 0.996106 -0.075416
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.282386 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = 275.977844 21.703917 460.597992
+		link_norm = 0.047486 0.990493 -0.097025
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.075274 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = -25.142340 11.220455 333.560181
+		link_norm = 0.213289 0.917042 -0.246125
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.829654 -0.000000
+		tran = 0.000000 0.939438 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = -56.261028 12.000000 295.200958
+		link_norm = 0.113150 0.949320 -0.188210
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.968500 -0.000000
+		tran = 0.000000 0.761193 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = -95.395004 12.443426 246.424194
+		link_norm = 0.227145 0.924982 -0.272294
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.675785 -0.000000
+		tran = 0.000000 0.235699 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = -95.961449 27.953880 414.979950
+		link_norm = 0.054106 0.986230 -0.032158
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.897077 -0.000000
+		tran = 0.000000 0.972815 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = -162.099457 27.967665 348.132782
+		link_norm = 0.057622 0.991198 -0.015448
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.704648 -0.000000
+		tran = 0.000000 0.361809 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret"
+		template = "fixedturret"
+		flags = "MOB"
+		factions = "teamred" "teamblue" "teamblue"
+		link_pos = -6.443890 19.918062 -525.864258
+		link_norm = 0.222181 0.972434 0.044240
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.225330 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 18"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -125.203514 16.702469 309.074524
+		link_norm = -0.046090 0.978255 0.186752
+		llink_norm_strength = 0.000000
+		scale = 0.604308 0.604308 0.604308
+		rot = -0.268891 0.582979 0.150554
+		tran = 0.000000 -1.066698 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 1"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 337.758942 3.360855 381.342438
+		link_norm = -0.024183 0.933306 -0.358085
+		llink_norm_strength = 0.000000
+		scale = 0.553112 0.553112 0.553112
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -1.103928 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 2"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 298.496155 2.119248 392.119080
+		link_norm = -0.027686 0.941790 -0.304833
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -1.087418 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 3"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -91.314644 1.224530 215.952545
+		link_norm = 0.272812 0.924341 -0.154312
+		llink_norm_strength = 0.000000
+		scale = 0.604308 0.604308 0.604308
+		rot = -0.098902 0.678379 -0.155500
+		tran = 0.000000 -1.069973 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 4"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -154.053040 1.452671 147.669739
+		link_norm = 0.273577 0.879881 -0.177291
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = -0.676468 -0.123141 -0.008702
+		tran = 0.000000 -1.047085 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 5"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -136.132141 0.965580 155.626770
+		link_norm = 0.000737 0.999883 -0.007846
+		llink_norm_strength = 0.000000
+		scale = 0.553112 0.553112 0.553112
+		rot = -0.095896 0.868518 -0.205526
+		tran = 0.000000 -1.058365 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 6"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -144.570557 0.942441 142.896179
+		link_norm = 0.010416 0.999048 -0.005903
+		llink_norm_strength = 0.000000
+		scale = 0.604308 0.604308 0.604308
+		rot = -0.254803 0.327144 -0.036840
+		tran = 0.000000 -1.058168 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 7"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -306.490845 15.796318 76.481514
+		link_norm = 0.248774 0.950780 -0.101564
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = -0.120696 0.300969 -0.239257
+		tran = 0.000000 -1.039520 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 8"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -292.269501 15.074044 72.311646
+		link_norm = -0.250775 0.951735 0.079185
+		llink_norm_strength = 0.000000
+		scale = 0.604308 0.604308 0.604308
+		rot = -0.148312 0.543357 -0.321300
+		tran = 0.000000 -1.037320 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 9"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -310.839691 14.982983 41.313866
+		link_norm = -0.077198 0.994037 0.068589
+		llink_norm_strength = 0.000000
+		scale = 0.499800 0.499800 0.499800
+		rot = -0.487904 1.159656 -0.253115
+		tran = 0.000000 -1.062157 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 10"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -318.001129 15.901857 63.009674
+		link_norm = 0.160167 0.958567 -0.206058
+		llink_norm_strength = 0.000000
+		scale = 0.564774 0.564774 0.564774
+		rot = -0.200692 0.563669 -0.083496
+		tran = 0.000000 -1.047503 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 11"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -192.939209 10.955070 -461.627197
+		link_norm = 0.056355 0.983119 0.166080
+		llink_norm_strength = 0.000000
+		scale = 0.553112 0.553112 0.553112
+		rot = 2.939386 -0.538082 -2.589370
+		tran = 0.000000 -1.075992 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 12"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -207.840500 10.660864 -453.294464
+		link_norm = 0.078513 0.984116 0.136252
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = 2.799910 0.638773 -2.947081
+		tran = 0.000000 -1.061777 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 13"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -219.932266 10.385757 -443.416565
+		link_norm = 0.096659 0.987089 0.111540
+		llink_norm_strength = 0.000000
+		scale = 0.564774 0.564774 0.564774
+		rot = -3.141593 0.928971 3.141593
+		tran = 0.000000 -1.060486 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 14"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -172.886826 23.087105 -518.096252
+		link_norm = 0.040967 0.997950 -0.036284
+		llink_norm_strength = 0.000000
+		scale = 0.499800 0.499800 0.499800
+		rot = 2.863570 1.000904 2.904795
+		tran = 0.000000 -1.061445 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 15"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -173.613892 23.132431 -503.984833
+		link_norm = 0.041124 0.991788 0.092546
+		llink_norm_strength = 0.000000
+		scale = 0.591830 0.591830 0.591830
+		rot = -0.469418 1.273594 -0.686810
+		tran = 0.000000 -1.061113 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 16"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -92.915657 17.452972 341.763733
+		link_norm = -0.049832 0.993839 0.012931
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = -0.410926 0.313761 0.133682
+		tran = 0.000000 -1.049932 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 17"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -104.885834 14.806437 321.509247
+		link_norm = -0.006950 0.998381 -0.006858
+		llink_norm_strength = 0.000000
+		scale = 0.499800 0.499800 0.499800
+		rot = -0.198543 0.398030 0.077826
+		tran = 0.000000 -1.066402 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 24"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -211.604309 37.860703 362.945404
+		link_norm = 0.156901 0.956737 -0.242673
+		llink_norm_strength = 0.000000
+		scale = 0.499800 0.499800 0.499800
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -1.608047 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 19"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -153.454086 35.033798 400.850708
+		link_norm = 0.119787 0.978325 -0.124768
+		llink_norm_strength = 0.000000
+		scale = 0.499800 0.499800 0.499800
+		rot = 0.000000 0.433633 -0.000000
+		tran = 0.000000 -1.609177 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 20"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -167.934143 35.091717 382.183777
+		link_norm = 0.064873 0.991184 -0.076584
+		llink_norm_strength = 0.000000
+		scale = 0.668768 0.668768 0.668768
+		rot = -0.710450 0.244644 -0.000000
+		tran = 0.000000 -1.586178 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 21"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -142.849060 37.392868 419.112457
+		link_norm = 0.179640 0.962509 -0.196783
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = -0.406638 0.367691 0.153579
+		tran = 0.000000 -1.573380 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 22"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -178.460205 43.486134 404.042603
+		link_norm = 0.200963 0.947584 -0.218741
+		llink_norm_strength = 0.000000
+		scale = 0.499800 0.499800 0.499800
+		rot = -0.342934 0.641059 0.210368
+		tran = 0.000000 -1.573734 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 23"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -196.679901 39.460606 380.302399
+		link_norm = 0.200596 0.941925 -0.268961
+		llink_norm_strength = 0.000000
+		scale = 0.564774 0.564774 0.564774
+		rot = -0.424410 0.374927 0.028747
+		tran = 0.000000 -1.610142 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 28"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 46.090595 29.995356 516.016357
+		link_norm = -0.180012 0.953333 -0.210930
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = -0.255772 -0.513233 -0.000000
+		tran = 0.000000 -1.042929 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 25"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 206.029907 28.812271 497.801941
+		link_norm = -0.128491 0.891425 -0.427879
+		llink_norm_strength = 0.000000
+		scale = 0.553112 0.553112 0.553112
+		rot = 0.000000 -0.646821 -0.143773
+		tran = 0.000000 -1.017290 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 26"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 225.429810 31.959660 491.254456
+		link_norm = -0.140743 0.901597 -0.374167
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = -0.306838 0.213642 -0.000000
+		tran = 0.000000 -1.065485 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 27"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = -9.627099 23.710949 520.954773
+		link_norm = -0.421107 0.903510 0.067648
+		llink_norm_strength = 0.000000
+		scale = 0.564774 0.564774 0.564774
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 -1.109358 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 31"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 352.563477 21.557245 456.420502
+		link_norm = 0.166612 0.975451 0.053126
+		llink_norm_strength = 0.000000
+		scale = 0.566440 0.566440 0.566440
+		rot = 0.000000 -0.000000 0.601219
+		tran = 0.000000 -1.052027 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 29"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 361.432007 20.276678 442.744873
+		link_norm = 0.118345 0.989666 0.017293
+		llink_norm_strength = 0.000000
+		scale = 0.466480 0.466480 0.466480
+		rot = -0.364608 0.501001 0.051007
+		tran = 0.000000 -1.048378 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "palmtree 30"
+		template = "palmtree"
+		flags = "scenery"
+		link_pos = 346.722717 21.492300 444.263580
+		link_norm = 0.080270 0.994736 -0.060703
+		llink_norm_strength = 0.000000
+		scale = 0.534786 0.534786 0.534786
+		rot = 2.079653 0.735260 -2.724365
+		tran = 0.000000 -1.060558 -0.000000
+	 }
+
+
+	}
+
+	 Instance
+	 {
+		name = "SalvagedRocket"
+		template = "EDEvacRocket"
+                factions = "teamred"
+		flags = "EDEvacRocket" "MOB"
+		link_pos = -60.728737 1.000000 221.903824
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 -0.734117 -0.000000
+		tran = 0.000000 3.935106 -0.000000
+	 }
+
+}
+
+ObjectContainer
+{
+	owner = "Origin Plane (XZ)"
+
+	 Instance
+	 {
+		name = "apache"
+		template = "apache"
+		flags = "MOB" "playable"
+		factions = "teamblue" "teamred"
+		link_pos = 732.070862 0.000000 566.897949
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 1.297225 3.141593
+		tran = 0.000000 14.949121 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "apache"
+		template = "apache"
+		flags = "MOB" "playable"
+		factions = "teamblue" "teamred"
+		link_pos = 712.314819 0.000000 552.854736
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 1.297225 3.141593
+		tran = 0.000000 14.949121 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "apache"
+		template = "apache"
+		flags = "MOB" "playable"
+		factions = "teamblue" "teamred"
+		link_pos = 713.511475 0.000000 528.896912
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 1.297225 3.141593
+		tran = 0.000000 14.949121 -0.000000
+	 }
+
+
+	 Instance
+	 {
+		name = "apache"
+		template = "apache"
+		flags = "MOB" "playable"
+		factions = "teamblue" "teamred"
+		link_pos = 733.906250 0.000000 500.828064
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = -3.141593 1.297225 3.141593
+		tran = 0.000000 14.949121 -0.000000
+	 }
+
+
+	 Instance
+	 {
+		name = "Carrier1"
+		template = "Carrier1"
+		factions = "teamblue" "teamred"
+		link_pos = 790.481201 0.000000 574.082825
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 0.200000 0.200000 0.200000
+		rot = 1.570796 -0.513945 -0.000000
+		tran = 0.000000 -4.202198 -0.000000
+	 }
+
+}

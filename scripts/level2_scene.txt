@@ -1,0 +1,335 @@
+
+TerrainZone
+{
+	name = "TerrainZone0"
+
+	Instances
+	{
+
+	 Instance
+	 {
+		name = "EDEvacRocket"
+		template = "EDEvacRocket"
+		flags = "EDEvacRocket" "MOB"
+		factions = "teamblue"
+		link_pos = -3.610088 11.00000 18.368774
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 -0.000000 -0.000000
+		tran = 0.000000 10.632919 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret1"
+		template = "fixedturret"
+		flags = "playable" "MOB"
+		factions = "teamblue" "teamredmissiles" "teamred"
+		link_pos = -11.862772 19.013048 -76.614517
+		link_norm = 0.003465 0.983259 0.100044
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.721304 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret2"
+		template = "fixedturret"
+		flags = "playable" "MOB"
+		factions = "teamblue" "teamredmissiles" "teamred"
+		link_pos = -94.057243 35.548737 74.427322
+		link_norm = -0.005987 0.991846 -0.107335
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.954605 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret3"
+		template = "fixedturret"
+		flags = "playable" "MOB"
+		factions = "teamblue" "teamredmissiles" "teamred"
+		link_pos = 57.873711 36.821335 121.352615
+		link_norm = -0.053849 0.991373 -0.110457
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.185982 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "EDTurret4"
+		template = "fixedturret"
+		flags = "playable" "MOB"
+		factions = "teamblue" "teamredmissiles" "teamred"
+		link_pos = 105.437553 35.032585 -13.887899
+		link_norm = -0.098185 0.976902 0.021117
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 0.000000 0.000000 -0.000000
+		tran = 0.000000 0.468704 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "crane_02-geometry 1"
+		template = "crane_02"
+		flags = "scenery"
+		link_pos = -3.151886 10.000000 6.454788
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld02_05-geometry 1"
+		template = "bld02_05"
+		flags = "scenery"
+		link_pos = -163.438995 10.005961 35.460724
+		link_norm = 0.005395 0.999695 0.013187
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "cistern_01-geometry 2"
+		template = "cistern_01"
+		flags = "scenery"
+		link_pos = -183.400253 10.108562 39.500172
+		link_norm = 0.116142 0.982970 0.067688
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 -0.018179 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "cistern_01-geometry 1"
+		template = "cistern_01"
+		flags = "scenery"
+		link_pos = -176.702042 10.004271 39.600212
+		link_norm = 0.026757 0.998787 0.022336
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 0.000034 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-hangar-geometry 1"
+		template = "bld-hangar-05"
+		flags = "scenery"
+		link_pos = -97.645416 17.058922 -109.510719
+		link_norm = 0.081831 0.989675 0.117333
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570800 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "cistern_09-geometry 3"
+		template = "cistern_09"
+		flags = "scenery"
+		link_pos = -8.680674 10.000000 67.035110
+		link_norm = 0.000003 1.000000 -0.000005
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "cistern_09-geometry 1"
+		template = "cistern_09"
+		flags = "scenery"
+		link_pos = -48.034332 10.009610 51.406460
+		link_norm = 0.020141 0.998786 -0.015584
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.127900 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "cistern_09-geometry 2"
+		template = "cistern_09"
+		flags = "scenery"
+		link_pos = -28.804203 10.000001 59.001564
+		link_norm = 0.000006 1.000000 -0.000008
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 0.000000 -0.000000
+		tran = 0.000000 0.000052 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 5"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = -49.442589 10.000003 36.972507
+		link_norm = 0.000375 1.000000 -0.000184
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.007222 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 2"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = 3.863260 10.000000 56.451515
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.000008 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 3"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = -13.575281 10.000000 49.887695
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "fence-c_02-geometry 4"
+		template = "fence-c_02"
+		flags = "scenery"
+		link_pos = -31.465984 10.000000 43.420155
+		link_norm = 0.000000 1.000000 -0.000000
+		llink_norm_strength = 0.000000
+		scale = 1.000000 1.000000 1.000000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.000008 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pole_04-geometry 4"
+		template = "pole_04"
+		flags = "scenery"
+		link_pos = -269.588959 50.604141 195.737122
+		link_norm = 0.091012 0.988773 -0.118251
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pole_04-geometry 1"
+		template = "pole_04"
+		flags = "scenery"
+		link_pos = -237.776733 38.722137 106.347244
+		link_norm = 0.047221 0.998036 -0.040025
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pole_04-geometry 2"
+		template = "pole_04"
+		flags = "scenery"
+		link_pos = -248.971207 40.991604 136.439117
+		link_norm = 0.179388 0.977367 -0.103091
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "pole_04-geometry 3"
+		template = "pole_04"
+		flags = "scenery"
+		link_pos = -258.919373 46.091324 165.392166
+		link_norm = 0.149832 0.984048 -0.094768
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.919862 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "Regroup01-geometry 1"
+		template = "Regroup01"
+		flags = "scenery"
+		link_pos = -241.732147 35.805714 68.182465
+		link_norm = 0.014621 0.993216 -0.115186
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 1.570796 -0.000000
+		tran = 0.000000 0.000000 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld-hangar-geometry 2"
+		template = "bld-hangar-02"
+		flags = "scenery"
+		link_pos = 88.797348 29.082216 -79.795219
+		link_norm = -0.080784 0.996016 0.037608
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.570796 0.804361 -0.000000
+		tran = 0.000000 -1.262276 -0.000000
+	 }
+
+	 Instance
+	 {
+		name = "bld01_01-geometry 1"
+		template = "bld01_01"
+		flags = "scenery"
+		link_pos = 148.360718 43.627493 135.503082
+		link_norm = -0.065360 0.997830 -0.004773
+		llink_norm_strength = 0.000000
+		scale = 0.750000 0.750000 0.750000
+		rot = 1.6 0.0 0.0
+		tran = 0.000000 0.259174 -0.000000
+	 }
+
+
+	}
+
+}
+
+ObjectContainer
+{
+	owner = "Origin Plane (XZ)"
+
+}
