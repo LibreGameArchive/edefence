@@ -1,0 +1,57 @@
+GameScript 
+{
+Header {label = "main"}
+ScriptEvent {time = 0.1 queue = "scriptEvents" type = "_SCRIPT_SetActiveTurret" parameters = "1"}
+ScriiptEvent {time = 0.1 queue = "scriptEvents" type = "_SCRIPT_spawnAircraft" parameters = "EnemyFighter1" "alienfighter" "teamred" "teamblue"}
+ScriptEvent {time = 5.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "This is a helicopter based mission" "Use the controls carefully to manouver."}
+ScriptEvent {time = 8.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Use the throttle to help control your height." "Staying low will make you harder to hit."}
+ScriptEvent {time = 12.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Enemy special forces have captured the factory" "to our north and we are coming under heavy attack"}
+ScriptEvent {time = 17.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "That compound is highly defensible and we haven't" "the forces to assault it." "We cannot let them get a foothold on this side of the valley.}
+ScriptEvent {time = 22.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Approach the factory using the hills for cover." "Target the chemical tanks. A leak will force them into the open."}
+
+ScriptEvent {time = 600.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: We need to retreat." "Enemy forces are moving in en masse."}
+ScriptEvent {time = 604.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Ben: Mission failed."}
+ScriptEvent {time = 610.0 type = "LevelFailed" queue = "scriptEvents"}
+}
+
+GameScript 
+{
+Header {label = "missioncomplete"}
+ScriptEvent {time = 10.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: Mission accomplished."}
+ScriptEvent {time = 16.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Ben: Get ready to move out." "We're meeting up with our last helicopter carrier."}
+ScriptEvent {time = 22.0 type = "LevelComplete" queue = "scriptEvents"}
+}
+
+GameScript 
+{
+Header {label = "factorydamaged"}
+ScriptEvent {time = 0.0 type = "factorydamaged" queue = "gameplayEvents"}
+ScriptEvent {time = 1.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "Jack: Those chemical tanks are damaged beyond repair." "Enemy forces will have to withdraw from the area."}
+ScriptEvent {time = 6.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "We have a new objective." "The other side of the valley has been overrun."}
+ScriptEvent {time = 11.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "All important equipment was evacuated." "We must slow the enemy advance."}
+ScriptEvent {time = 17.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "The quickest way into the area is through a tunnel." "We must damage it to prevent enemy armor from reaching us."}
+ScriptEvent {time = 23.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "A line of turrets has fallen into enemy hands" "which will make an attack difficult."}
+ScriptEvent {time = 29.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "Fly low through the valley" "and approach the bridge along the road."}
+ScriptEvent {time = 35.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "If you can evade enemy fire" "your missiles will bring down the flimsy bridge entrance."}
+}
+
+GameScript 
+{
+Header {label = "tunneldamaged"}
+ScriptEvent {time = 0.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: That will buy us some time." "Pull back to a safe position."}
+}
+
+GameScript 
+{
+Header {label = "missionfailed"}
+ScriptEvent {time = 0.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: We're out of helicopters!."}
+ScriptEvent {time = 3.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Ben: Mission failed."}
+ScriptEvent {time = 6.0 type = "LevelFailed" queue = "scriptEvents"}
+}
+
+GameScript 
+{
+Header {label = "respawn"}
+ScriptEvent {time = 1.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Ben: A new gunship is available."}
+ScriptEvent {time = 5.0 queue = "scriptEvents" type = "_SCRIPT_spawnPlayableAircraft" parameters = "playerGunship1" "gunship" "teamblue" "teamred" "-490.486816" "135.438461" "485.482147"}
+}

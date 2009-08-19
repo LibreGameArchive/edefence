@@ -1,0 +1,34 @@
+Resource {type = "Texture" label = "checkbox" path = "uitextures/checkbox_32x64.png"}
+Resource {type = "Texture" label = "scrollbutton" path = "uitextures/scrollbutton_8x16.png"}
+Resource {type = "Texture" label = "windowcorner" path = "uitextures/window_corner_32x32.png"}
+
+Resource {type = "Texture" label = "apply" path = "uitextures/apply_128x32.png"}
+Resource {type = "Texture" label = "cancel" path = "uitextures/cancel_128x32.png"}
+
+Resource {type = "Texture" label = "yes" path = "uitextures/yes_64x32.png"}
+Resource {type = "Texture" label = "no" path = "uitextures/no_32x32.png"}
+
+Resource {type = "Texture" label = "backdropLeft" path = "uitextures/edbanner_left_64x128.jpg"}
+Resource {type = "Texture" label = "backdropMid" path = "uitextures/edbanner_mid_512x128.jpg"}
+Resource {type = "Texture" label = "backdropRight" path = "uitextures/edbanner_right_64x128.jpg"}
+
+Resource {type = "Texture" label = "newgame" path = "uitextures/newgame_128x32.png"}
+Resource {type = "Texture" label = "tutorials" path = "uitextures/tutorials_128x32.png"}
+Resource {type = "Texture" label = "settings" path = "uitextures/settings_128x32.png"}
+Resource {type = "Texture" label = "credits" path = "uitextures/credits_128x32.png"}
+Resource {type = "Texture" label = "controls" path = "uitextures/controls_128x32.png"}
+Resource {type = "Texture" label = "exit" path = "uitextures/exit_64x32.png"}
+
+Resource {type = "Texture" label = "resume" path = "uitextures/resume_128x32.png"}
+Resource {type = "Texture" label = "restart" path = "uitextures/restart_128x32.png"}
+
+Resource {type = "Texture" label = "graphics" path = "uitextures/graphics_128x32.png"}
+Resource {type = "Texture" label = "sound" path = "uitextures/sound_128x32.png"}
+Resource {type = "Texture" label = "game" path = "uitextures/game_128x32.png"}
+Resource {type = "Texture" label = "back" path = "uitextures/back_64x32.png"}
+
+Resource {type = "Texture" label = "gameheader" path = "uitextures/game_128x32.png"}
+
+Resource {type = "Texture" label = "turrettutorial" path = "uitextures/turret_tutorial.jpg"}
+Resource {type = "Texture" label = "helicoptertutorial" path = "uitextures/helicopter_tutorial.jpg"}
+Resource {type = "Texture" label = "islandlevel" path = "uitextures/island_level.jpg"}

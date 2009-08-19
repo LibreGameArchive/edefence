@@ -1,0 +1,56 @@
+GameScript 
+{
+Header {label = "main"}
+
+ScriptEvent {time = 0.0 queue = "scriptEvents" type = "_SCRIPT_addUpgrade" duplicate_frequency = 30.0 duplicate_number = 4 parameters = "launcher"}
+ScriptEvent {time = 0.2 queue = "scriptEvents" type = "_SCRIPT_SetActiveTurret" parameters = "1"}
+ScriptEvent {time = 0.3 queue = "scriptEvents" type = "ApplyCurrentUpgrade" parameters = "1"}
+
+ScriptEvent {time = 0.1 queue = "scriptEvents" type = "_SCRIPT_spawnMissiles" duplicate_frequency = 3.0 duplicate_number = 60 parameters = "3" "teamredmissiles" "teamblue"}
+ScriptEvent {time = 0.1 queue = "scriptEvents" type = "_SCRIPT_spawnAircraft" parameters = "EnemyFighter" "alienfighter" "teamred" "teamblue"}
+ScriptEvent {time = 0.1 queue = "scriptEvents" type = "_SCRIPT_spawnAircraft" parameters = "EnemyFighter" "alienfighter" "teamred" "teamblue"}
+
+ScriptEvent {time = 5.0 type = "RunScript" queue = "scriptEvents" parameters = "launchscript" "launchscript"}
+ScriptEvent {time = 30.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Ben" "Ben: Alien fighters attacking from all sides!"}
+ScriptEvent {time = 40.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Ben" "Bring down those fighters!" "Leave the others to deal with the missile bombardment."}
+
+ScriptEvent {time = 115.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Ben" "Ben: We're taking a battering." "Withdraw into the tunnels as soon as the rocket is safe."}
+
+ScriptEvent {time = 10.0 queue = "scriptEvents" type = "_SCRIPT_spawnAircraft" duplicate_frequency = 20.0 duplicate_number = 6 parameters = "EnemyFighter" "alienfighter" "teamred" "teamblue"}
+ScriptEvent {time = 20.0 queue = "scriptEvents" type = "_SCRIPT_addUpgrade" duplicate_frequency = 20.0 duplicate_number = 8 parameters = "repair"}
+}
+
+GameScript 
+{
+Header {label = "launchscript"}
+ScriptEvent {time = 0.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "Jack: Rocket launch in three minutes"}
+ScriptEvent {time = 10.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "Jack: We have to protect that rocket" "It has vital supplies for the evacuation ship."}
+ScriptEvent {time = 50.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "Jack: Two minutes to launch."}
+ScriptEvent {time = 110.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "4.0" "Jack" "Jack: Rocket launch in one minute."}
+ScriptEvent {time = 170.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: Prepare for rocket launch in ten seconds!"}
+ScriptEvent {time = 175.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "1.0" "Jack" "Jack: Rocket launch in 5"}
+ScriptEvent {time = 176.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "1.0" "Jack" "4"}
+ScriptEvent {time = 177.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "1.0" "Jack" "3"}
+ScriptEvent {time = 178.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "1.0" "Jack" "2"}
+ScriptEvent {time = 179.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "1.0" "Jack" "1"}
+ScriptEvent {time = 180.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "1.0" "Jack" "Jack: Rocket launch!"}
+ScriptEvent {time = 180.0 type = "RocketLaunch" queue = "scriptEvents"}
+}
+
+GameScript 
+{
+Header {label = "missioncomplete"}
+ScriptEvent {time = 0.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: Rocket away."}
+ScriptEvent {time = 3.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Ben: Job done, let's get out of here!"}
+ScriptEvent {time = 6.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: Heading out." "Next stop is the valley base."}
+ScriptEvent {time = 18.0 type = "LevelComplete" queue = "scriptEvents"}
+}
+
+GameScript 
+{
+Header {label = "missionfailed"}
+ScriptEvent {time = 0.0 queue = "scriptEvents" type = "KillScript" parameters = "launchscript"}
+ScriptEvent {time = 0.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Jack" "Jack: Rocket destroyed."}
+ScriptEvent {time = 3.0 type = "_SCRIPT_Narrative" queue = "scriptEvents" parameters = "3.0" "Ben" "Ben: Mission failed."}
+ScriptEvent {time = 6.0 type = "LevelFailed" queue = "scriptEvents"}
+}
