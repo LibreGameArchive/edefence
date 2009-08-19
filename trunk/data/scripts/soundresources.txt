@@ -1,0 +1,11 @@
+Resource {type = "Sound" label = "ExplosionClose" path = "explosion2.ogg"}
+Resource {type = "Sound" label = "ExplosionFar" path = "explosion4.ogg"}
+Resource {type = "Sound" label = "MissileDestroyed" path = "explosion1.ogg"}
+Resource {type = "Sound" label = "AlienFire" path = "laser1.ogg"}
+Resource {type = "Sound" label = "AAGunFire" path = "aagun2.ogg"}
+Resource {type = "Sound" label = "Jet" path = "jet2b.ogg"}
+Resource {type = "Sound" label = "Missile" path = "jet3.ogg"}
+Resource {type = "Sound" label = "RocketLaunch" path = "rocket1.ogg"}
+Resource {type = "Sound" label = "Helicopter" path = "helicopter1.ogg"}
+
+Resource {type = "Sound" label = "TumblingMotion" path = "tumbling_motion-freesoundtrackmusic.ogg"}
