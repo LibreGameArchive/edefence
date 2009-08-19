@@ -1,3 +1,0 @@
-Resource {type = "Texture" label = "extra1" path = "uitextures/extras/jme_splash.jpg"}
-Resource {type = "Texture" label = "extra2" path = "uitextures/extras/screenshot1.jpg"}
-Resource {type = "Texture" label = "extra3" path = "uitextures/extras/missile_in_flight.jpg"}
